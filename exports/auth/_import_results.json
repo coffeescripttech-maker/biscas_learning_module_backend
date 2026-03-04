@@ -1,0 +1,310 @@
+{
+  "total": 60,
+  "created": 0,
+  "skipped": 60,
+  "failed": 0,
+  "resetTokensCreated": 0,
+  "resetTokensFailed": 0,
+  "users": [
+    {
+      "email": "amelyn.saut@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "liane.samonte@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "keizha.sabater@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "kristine.robles@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "darlene.naval@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "chamcy.macaraig@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "mercy.colinares@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "trishamae.cardinal@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "bunny.canon@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "aliya.altez@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jerick.sotalbo@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "edge.rodriguez@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "red.povadora@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jhon.naval@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "mateo.napay@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jhon.luzon@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "marc.erasga@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "cyjane.delcastillo@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "john.cuadrante@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "princeethan.cortezano@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "reyroniele.blanca@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "xandra.singson@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jasmin.obal@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jecel.marinas@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jeanandrea.listana@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jailyn.esnero@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "celine.delossantos@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "raya.delosreyes@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "reyna.dagal@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jameen.dabal@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "kate.cerillo@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "wenceljane.ceneta@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "keillan.capistrano@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "crystal.belleza@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "francin.bayonito@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "yuanne.balbedina@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "trishamae.apetrior@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "luis.sanjose@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jayv.sanjose@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "justine.regaldo@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "terence.reforsado@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "michael.ragay@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "noeh.perez@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "mark.ocfemia@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jio.nasol@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "rhojhon.mollasgo@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "shawn.megenio@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "alberto.martinez@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "gerald.grijalvo@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "joseph.encinas@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "justine.eballar@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "rainer.delosreyes@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "christian.deleon@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "brenran.caballas@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "aaron.buena@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "ivan.batalla@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "ronnie.barrosa@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "jade.barias@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "aiden.austria@student.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    },
+    {
+      "email": "newdexm@gmail.com",
+      "status": "skipped",
+      "reason": "already_exists"
+    }
+  ]
+}

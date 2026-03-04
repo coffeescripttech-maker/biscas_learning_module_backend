@@ -1,0 +1,1675 @@
+[
+  {
+    "id": "55e644f7-a9d0-4f50-a9ec-6c1581611218",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "amelyn.saut@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:42.363922Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:42.363922Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Amelyn",
+      "grade_level": "Grade 7",
+      "last_name": "Saut",
+      "learning_style": "reading_writing",
+      "middle_name": "C.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:42.357857Z",
+    "updated_at": "2025-11-04T05:53:42.364533Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "6d9f96e1-e35d-4216-922c-ec1232651775",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "liane.samonte@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:41.842553Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:41.842553Z",
+    "last_sign_in_at": "2025-11-04T07:24:54.947039Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Liane",
+      "grade_level": "Grade 7",
+      "last_name": "Samonte",
+      "learning_style": "visual",
+      "middle_name": "Kim Andrea",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:41.839393Z",
+    "updated_at": "2025-11-04T09:27:17.677881Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "511b1eed-affb-46ab-9af2-aa9deb990a1a",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "keizha.sabater@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:41.550216Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:41.550216Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Keizha",
+      "grade_level": "Grade 7",
+      "last_name": "Sabater",
+      "learning_style": "auditory",
+      "middle_name": "Ann",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:41.54649Z",
+    "updated_at": "2025-11-04T05:53:41.550872Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "fae36d8b-807a-429f-8141-c33741a8e3fe",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "kristine.robles@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:41.241612Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:41.241612Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Kristine",
+      "grade_level": "Grade 7",
+      "last_name": "Robles",
+      "learning_style": "reading_writing",
+      "middle_name": "Carla A.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:41.237355Z",
+    "updated_at": "2025-11-04T05:53:41.242311Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "fabbe70a-fcbc-43c8-8360-61cbc4ff50eb",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "darlene.naval@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:40.967329Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:40.967329Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Darlene",
+      "grade_level": "Grade 7",
+      "last_name": "Naval",
+      "learning_style": "visual",
+      "middle_name": "Chelsy S.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:40.964224Z",
+    "updated_at": "2025-11-04T05:53:40.967937Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "78fae6a0-e846-4c0b-989a-46f30381b967",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "chamcy.macaraig@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:40.193813Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:40.193813Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Chamcy",
+      "grade_level": "Grade 7",
+      "last_name": "Macaraig",
+      "learning_style": "visual",
+      "middle_name": "E.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:40.18806Z",
+    "updated_at": "2025-11-04T05:53:40.194479Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "0057aaa3-5fb6-47eb-b3be-b4abeb1ec68f",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "mercy.colinares@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:39.887597Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:39.887597Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Mercy",
+      "grade_level": "Grade 7",
+      "last_name": "Colinares",
+      "learning_style": "auditory",
+      "middle_name": "D.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:39.88292Z",
+    "updated_at": "2025-11-04T05:53:39.889198Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "a1e903ed-d5e1-41de-824e-93b3a089dd95",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "trishamae.cardinal@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:39.597621Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:39.597621Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Trisha",
+      "grade_level": "Grade 7",
+      "last_name": "Cardinal",
+      "learning_style": "visual",
+      "middle_name": "Mae T.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:39.594522Z",
+    "updated_at": "2025-11-04T05:53:39.598274Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "33c4e8d8-f4d5-452a-87e7-b46efb18e0b7",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "bunny.canon@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:39.286205Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:39.286205Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Bunny",
+      "grade_level": "Grade 7",
+      "last_name": "Cañon",
+      "learning_style": "visual",
+      "middle_name": "Joy B.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:39.281777Z",
+    "updated_at": "2025-11-04T05:53:39.287042Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "0fb7e280-2cf2-4d00-bb57-4a0a6273a7a8",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "aliya.altez@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:38.980627Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:38.980627Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Aliya",
+      "grade_level": "Grade 7",
+      "last_name": "Altez",
+      "learning_style": "visual",
+      "middle_name": "B.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:38.972342Z",
+    "updated_at": "2025-11-04T05:53:38.982283Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "a61d8d3d-f2cc-40bc-bc12-b22d5483bf5f",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jerick.sotalbo@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:38.594916Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:38.594916Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jerick",
+      "grade_level": "Grade 7",
+      "last_name": "Sotalbo",
+      "learning_style": "visual",
+      "middle_name": "S.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:38.591893Z",
+    "updated_at": "2025-11-04T05:53:38.595517Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "bd1f5f1f-5285-46e4-bfda-b8e64d3f5f55",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "edge.rodriguez@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:38.315246Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:38.315246Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Edge",
+      "grade_level": "Grade 7",
+      "last_name": "Rodriguez",
+      "learning_style": "visual",
+      "middle_name": "Dominick",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:38.310644Z",
+    "updated_at": "2025-11-04T05:53:38.316345Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "a17f52e9-ddb9-4c65-bc70-eb0397af3774",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "red.povadora@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:38.021539Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:38.021539Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Red",
+      "grade_level": "Grade 7",
+      "last_name": "Povadora",
+      "learning_style": "visual",
+      "middle_name": "Andrew",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:38.017679Z",
+    "updated_at": "2025-11-04T05:53:38.022218Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "5da07e0e-21b7-48e8-a5f6-bd75cd578321",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jhon.naval@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:37.744832Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:37.744832Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jhon",
+      "grade_level": "Grade 7",
+      "last_name": "Naval",
+      "learning_style": "visual",
+      "middle_name": "Michael S.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:37.739725Z",
+    "updated_at": "2025-11-04T05:53:37.745509Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "4ee31e9b-0186-4432-8e93-16a3df2842be",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "mateo.napay@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:37.451275Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:37.451275Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Mateo",
+      "grade_level": "Grade 7",
+      "last_name": "Napay",
+      "learning_style": "visual",
+      "middle_name": "Neithan B.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:37.447355Z",
+    "updated_at": "2025-11-04T05:53:37.452873Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "ec241d51-d776-4a9e-890f-1168507327e2",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jhon.luzon@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:37.122184Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:37.122184Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jhon",
+      "grade_level": "Grade 7",
+      "last_name": "Luzon",
+      "learning_style": "visual",
+      "middle_name": "Cris A.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:37.11852Z",
+    "updated_at": "2025-11-04T05:53:37.122866Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "dfffd249-0ee3-4933-b6e8-3037bef08456",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "marc.erasga@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:36.840917Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:36.840917Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Marc",
+      "grade_level": "Grade 7",
+      "last_name": "Erasga",
+      "learning_style": "visual",
+      "middle_name": "Johsean",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:36.831464Z",
+    "updated_at": "2025-11-04T05:53:36.841612Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "da2b6c3b-f569-42ac-951e-77ff4d5ca407",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "cyjane.delcastillo@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:36.54437Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:36.54437Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Cyjane",
+      "grade_level": "Grade 7",
+      "last_name": "Del Castillo",
+      "learning_style": "visual",
+      "middle_name": "C.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:36.539635Z",
+    "updated_at": "2025-11-04T05:53:36.545165Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "25eb735e-d9e8-4c57-ae5f-948b2f996c4d",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "john.cuadrante@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:36.236818Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:36.236818Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "John",
+      "grade_level": "Grade 7",
+      "last_name": "Cuadrante",
+      "learning_style": "visual",
+      "middle_name": "Michael",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:36.233562Z",
+    "updated_at": "2025-11-04T05:53:36.2382Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "93725ab7-3ac5-404e-92fa-b3a84397cf68",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "princeethan.cortezano@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:35.942117Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:35.942117Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Prince",
+      "grade_level": "Grade 7",
+      "last_name": "Cortezano",
+      "learning_style": "visual",
+      "middle_name": "Ethan Shon B.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:35.938362Z",
+    "updated_at": "2025-11-04T05:53:35.942809Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "66a32649-a22c-4676-b85c-601324494b1c",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "reyroniele.blanca@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:35.669574Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:35.669574Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Rey",
+      "grade_level": "Grade 7",
+      "last_name": "Blanca",
+      "learning_style": "visual",
+      "middle_name": "Roniele S.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:35.664511Z",
+    "updated_at": "2025-11-04T05:53:35.670249Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "2ea7cb6e-8de2-4c14-87fd-9444d5292bb7",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "xandra.singson@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:35.383836Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:35.383836Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Xandra",
+      "grade_level": "Grade 7",
+      "last_name": "Singson",
+      "learning_style": "visual",
+      "middle_name": "Lourine",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:35.380343Z",
+    "updated_at": "2025-11-04T05:53:35.384832Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "7fd8a38c-68fc-42e4-986d-ff78c7c2bd6b",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jasmin.obal@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:35.105085Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:35.105085Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jasmin",
+      "grade_level": "Grade 7",
+      "last_name": "Obal",
+      "learning_style": "reading_writing",
+      "middle_name": "DS.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:35.102261Z",
+    "updated_at": "2025-11-04T05:53:35.105767Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "42461146-56a1-4f79-89ce-c8ff3b651e55",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jecel.marinas@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:34.807099Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:34.807099Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jecel",
+      "grade_level": "Grade 7",
+      "last_name": "Mariñas",
+      "learning_style": "visual",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:34.803259Z",
+    "updated_at": "2025-11-04T05:53:34.807942Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "4e347a66-920e-4001-9e85-1f8da6fd9dbc",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jeanandrea.listana@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:34.51981Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:34.51981Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jean",
+      "grade_level": "Grade 7",
+      "last_name": "Listana",
+      "learning_style": "reading_writing",
+      "middle_name": "Andrea Mae",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:34.516016Z",
+    "updated_at": "2025-11-04T05:53:34.520468Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "7726d255-e91e-4611-a14a-5706f974f16f",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jailyn.esnero@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:34.231814Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:34.231814Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jailyn",
+      "grade_level": "Grade 7",
+      "last_name": "Esnero",
+      "learning_style": "visual",
+      "middle_name": "R.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:34.225246Z",
+    "updated_at": "2025-11-04T05:53:34.232877Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "8dba4fa0-a275-4f73-8f8a-5f980acacf6b",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "celine.delossantos@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:33.914832Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:33.914832Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Celine",
+      "grade_level": "Grade 7",
+      "last_name": "Delos Santos",
+      "learning_style": "reading_writing",
+      "middle_name": "O.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:33.910208Z",
+    "updated_at": "2025-11-04T05:53:33.915462Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "baf8b41f-1d93-48d2-ac89-badb31dfa0e7",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "raya.delosreyes@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:33.611226Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:33.611226Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Raya",
+      "grade_level": "Grade 7",
+      "last_name": "Delos Reyes",
+      "learning_style": "visual",
+      "middle_name": "Isabel",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:33.607982Z",
+    "updated_at": "2025-11-04T05:53:33.611901Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "b540b68c-9952-400f-983e-5c7c658a1103",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "reyna.dagal@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:33.281309Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:33.281309Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Reyna",
+      "grade_level": "Grade 7",
+      "last_name": "Dagal",
+      "learning_style": "reading_writing",
+      "middle_name": "D.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:33.277262Z",
+    "updated_at": "2025-11-04T05:53:33.281981Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "e2cd38ce-48b7-42ff-8b5c-fb219a350bf3",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jameen.dabal@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:33.002627Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:33.002627Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jameen",
+      "grade_level": "Grade 7",
+      "last_name": "Dabal",
+      "learning_style": "reading_writing",
+      "middle_name": "A.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:32.997954Z",
+    "updated_at": "2025-11-04T05:53:33.003303Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "41cf99e1-52ad-49a0-a216-4d83adbe3cdc",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "kate.cerillo@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:32.693774Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:32.693774Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Kate",
+      "grade_level": "Grade 7",
+      "last_name": "Cerillo",
+      "learning_style": "reading_writing",
+      "middle_name": "Cynthia",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:32.688462Z",
+    "updated_at": "2025-11-04T05:53:32.694516Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "ae305d0f-b484-43c0-96fe-b57ab98d8f0a",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "wenceljane.ceneta@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:32.374547Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:32.374547Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Wencel",
+      "grade_level": "Grade 7",
+      "last_name": "Ceneta",
+      "learning_style": "visual",
+      "middle_name": "Jane Aira",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:32.356119Z",
+    "updated_at": "2025-11-04T05:53:32.375327Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "df813046-a113-4d49-8776-d984171e17d0",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "keillan.capistrano@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:32.013646Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:32.013646Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Keillan",
+      "grade_level": "Grade 7",
+      "last_name": "Capistrano",
+      "learning_style": "reading_writing",
+      "middle_name": "Joan",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:32.008006Z",
+    "updated_at": "2025-11-04T05:53:32.014301Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "ae3cd8a0-6d1d-4140-af31-3e7de46f6b89",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "crystal.belleza@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:31.741914Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:31.741914Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Crystal",
+      "grade_level": "Grade 7",
+      "last_name": "Belleza",
+      "learning_style": "reading_writing",
+      "middle_name": "Mezh",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:31.737388Z",
+    "updated_at": "2025-11-04T05:53:31.745048Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "05fa83e1-2cc6-47a4-b964-977d4426209b",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "francin.bayonito@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:31.416074Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:31.416074Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Francin",
+      "grade_level": "Grade 7",
+      "last_name": "Bayonito",
+      "learning_style": "reading_writing",
+      "middle_name": "P.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:31.412656Z",
+    "updated_at": "2025-11-04T05:53:31.416769Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "c96f1af2-8c48-4a0f-88e7-f7f3ba7f9319",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "yuanne.balbedina@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:31.129054Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:31.129054Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Yuanne",
+      "grade_level": "Grade 7",
+      "last_name": "Balbedina",
+      "learning_style": "visual",
+      "middle_name": "R.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:31.125043Z",
+    "updated_at": "2025-11-04T05:53:31.129763Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "f7f85b2d-69ab-4078-8e33-ba2434b4990c",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "trishamae.apetrior@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:30.840139Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:30.840139Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Trisha",
+      "grade_level": "Grade 7",
+      "last_name": "Apetrior",
+      "learning_style": "visual",
+      "middle_name": "Mae S.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:30.836523Z",
+    "updated_at": "2025-11-04T05:53:30.840833Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "aed75291-25dc-41b4-a437-dffe3f117532",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "luis.sanjose@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:30.514834Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:30.514834Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Luis",
+      "grade_level": "Grade 7",
+      "last_name": "San Jose",
+      "learning_style": "visual",
+      "middle_name": "III N.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:30.511267Z",
+    "updated_at": "2025-11-04T05:53:30.515866Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "14e725d5-4722-4f35-be31-f29583e9247b",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jayv.sanjose@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:30.229684Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:30.229684Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jay-v",
+      "grade_level": "Grade 7",
+      "last_name": "San Jose",
+      "learning_style": "kinesthetic",
+      "middle_name": "N.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:30.223645Z",
+    "updated_at": "2025-11-04T05:53:30.230357Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "efb47b86-29ef-4c60-af16-31fc0e527e98",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "justine.regaldo@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:29.93698Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:29.93698Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Justine",
+      "grade_level": "Grade 7",
+      "last_name": "Regaldo",
+      "learning_style": "reading_writing",
+      "middle_name": "L.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:29.933183Z",
+    "updated_at": "2025-11-04T05:53:29.93778Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "60b2838b-01b7-411e-9ec3-df25fe9ee8f0",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "terence.reforsado@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:29.638051Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:29.638051Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Terence",
+      "grade_level": "Grade 7",
+      "last_name": "Reforsado",
+      "learning_style": "auditory",
+      "middle_name": "B.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:29.629486Z",
+    "updated_at": "2025-11-04T05:53:29.638825Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "907e5cf8-c797-4490-bc38-351a5b579323",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "michael.ragay@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:29.33951Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:29.33951Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Michael",
+      "grade_level": "Grade 7",
+      "last_name": "Ragay",
+      "learning_style": "visual",
+      "middle_name": "A.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:29.332011Z",
+    "updated_at": "2025-11-04T05:53:29.340973Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "fb508bbb-18cb-4354-a4ce-e3244c8c8d4a",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "noeh.perez@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:29.071555Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:29.071555Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Noeh",
+      "grade_level": "Grade 7",
+      "last_name": "Perez",
+      "learning_style": "visual",
+      "middle_name": "O.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:29.068262Z",
+    "updated_at": "2025-11-04T05:53:29.072251Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "e223c9d6-2dca-43e0-b9fa-e4673fad285f",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "mark.ocfemia@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:28.791477Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:28.791477Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Mark",
+      "grade_level": "Grade 7",
+      "last_name": "Ocfemia",
+      "learning_style": "visual",
+      "middle_name": "Emmanuel",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:28.787565Z",
+    "updated_at": "2025-11-04T05:53:28.792118Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "131d6718-e48c-42a9-a00c-53528dae21fd",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jio.nasol@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:28.501057Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:28.501057Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jio",
+      "grade_level": "Grade 7",
+      "last_name": "Nasol",
+      "learning_style": "auditory",
+      "middle_name": "A.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:28.496511Z",
+    "updated_at": "2025-11-04T05:53:28.501701Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "7462edb9-8142-4bf0-b301-db8d5eaa3f1a",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "rhojhon.mollasgo@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:28.204062Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:28.204062Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Rho-Jhon",
+      "grade_level": "Grade 7",
+      "last_name": "Mollasgo",
+      "learning_style": "visual",
+      "middle_name": "P.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:28.199889Z",
+    "updated_at": "2025-11-04T05:53:28.204799Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "841eb977-d35b-42c9-a9bc-efdd09a64021",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "shawn.megenio@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:27.919217Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:27.919217Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Shawn",
+      "grade_level": "Grade 7",
+      "last_name": "Megenio",
+      "learning_style": "auditory",
+      "middle_name": "Kean",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:27.914236Z",
+    "updated_at": "2025-11-04T05:53:27.919864Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "1a91c7c6-afd3-4339-bc96-39658319100d",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "alberto.martinez@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:27.578287Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:27.578287Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Alberto",
+      "grade_level": "Grade 7",
+      "last_name": "Martinez",
+      "learning_style": "reading_writing",
+      "middle_name": "Jr. V.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:27.57512Z",
+    "updated_at": "2025-11-04T05:53:27.578952Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "5d6a22a7-7838-420b-b234-53aee461c10b",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "gerald.grijalvo@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:27.293291Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:27.293291Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Gerald",
+      "grade_level": "Grade 7",
+      "last_name": "Grijalvo",
+      "learning_style": "auditory",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:27.29005Z",
+    "updated_at": "2025-11-04T05:53:27.294286Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "881b8860-d521-463f-bf13-61a8325ff984",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "joseph.encinas@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:26.92958Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:26.92958Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Joseph",
+      "grade_level": "Grade 7",
+      "last_name": "Encinas",
+      "learning_style": "visual",
+      "middle_name": "Nathaniel",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:26.926254Z",
+    "updated_at": "2025-11-04T05:53:26.93023Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "b8b09cf0-10c7-447a-a7ac-ec83f2f3871b",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "justine.eballar@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:26.637352Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:26.637352Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Justine",
+      "grade_level": "Grade 7",
+      "last_name": "Eballar",
+      "learning_style": "visual",
+      "middle_name": "Rabos",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:26.630404Z",
+    "updated_at": "2025-11-04T05:53:26.641248Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "539ab334-3c3a-4cc6-8b34-46b04b0a2705",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "rainer.delosreyes@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:26.276074Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:26.276074Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Rainer",
+      "grade_level": "Grade 7",
+      "last_name": "Delos Reyes",
+      "learning_style": "visual",
+      "middle_name": "John",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:26.270887Z",
+    "updated_at": "2025-11-04T05:53:26.27677Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "0824bc44-e644-407c-906c-11c49e4fbe79",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "christian.deleon@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:25.981772Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:25.981772Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Christian",
+      "grade_level": "Grade 7",
+      "last_name": "De Leon",
+      "learning_style": "reading_writing",
+      "middle_name": "D.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:25.97807Z",
+    "updated_at": "2025-11-04T05:53:25.982612Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "1eb3ab42-cf67-4c50-9f16-d8bfbb26c302",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "brenran.caballas@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:25.688302Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:25.688302Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Brenran",
+      "grade_level": "Grade 7",
+      "last_name": "Caballas",
+      "learning_style": "reading_writing",
+      "middle_name": "L.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:25.684257Z",
+    "updated_at": "2025-11-04T05:53:25.689356Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "9305b0d8-c815-4d58-b275-757b51613011",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "aaron.buena@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:25.399971Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:25.399971Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Aaron",
+      "grade_level": "Grade 7",
+      "last_name": "Buena",
+      "learning_style": "reading_writing",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:25.395811Z",
+    "updated_at": "2025-11-04T05:53:25.401682Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "4b303f1c-0dfb-4c22-a242-18968ca8d561",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "ivan.batalla@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:25.112652Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:25.112652Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Ivan",
+      "grade_level": "Grade 7",
+      "last_name": "Batalla",
+      "learning_style": "reading_writing",
+      "middle_name": "M.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:25.10843Z",
+    "updated_at": "2025-11-04T05:53:25.113465Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "e5b7d054-ec76-4246-97e1-811d2fac54c6",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "ronnie.barrosa@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:24.801349Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:24.801349Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Ronnie",
+      "grade_level": "Grade 7",
+      "last_name": "Barrosa",
+      "learning_style": "reading_writing",
+      "middle_name": "Jr. G.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:24.797369Z",
+    "updated_at": "2025-11-04T05:53:24.802414Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "225dce15-7c45-4439-a38a-17394fdbb491",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "jade.barias@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:24.507542Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:24.507542Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Jade",
+      "grade_level": "Grade 7",
+      "last_name": "Barias",
+      "learning_style": "auditory",
+      "middle_name": "C.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:24.502145Z",
+    "updated_at": "2025-11-04T05:53:24.51034Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "c59b6174-eeb1-4d99-b4b4-87bbd2a9f238",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "aiden.austria@student.com",
+    "email_confirmed_at": "2025-11-04T05:53:24.116158Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:53:24.116158Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "first_name": "Aiden",
+      "grade_level": "Grade 7",
+      "last_name": "Austria",
+      "learning_style": "auditory",
+      "middle_name": "J.",
+      "role": "student"
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:53:24.104069Z",
+    "updated_at": "2025-11-04T05:53:24.117666Z",
+    "is_anonymous": false
+  },
+  {
+    "id": "4b1559f1-758d-4fc7-9cf6-dead1c43d7aa",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "newdexm@gmail.com",
+    "email_confirmed_at": "2025-11-04T05:33:25.446591Z",
+    "phone": "",
+    "confirmed_at": "2025-11-04T05:33:25.446591Z",
+    "last_sign_in_at": "2026-01-13T21:41:02.141919Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true
+    },
+    "identities": null,
+    "created_at": "2025-11-04T05:33:25.392308Z",
+    "updated_at": "2026-01-13T21:41:02.14686Z",
+    "is_anonymous": false
+  }
+]

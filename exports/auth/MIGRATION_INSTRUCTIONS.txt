@@ -1,0 +1,56 @@
+
+PASSWORD MIGRATION INSTRUCTIONS
+================================
+
+STRATEGY: Force Password Reset (Recommended)
+--------------------------------------------
+
+Since Supabase password hashes cannot be directly exported, we will use
+a temporary password approach with forced password reset.
+
+STEPS:
+------
+
+1. IMPORT USERS TO MYSQL
+   - Use the import script with users_for_migration.json
+   - Each user will be created with a temporary password
+   - Temporary passwords are stored in password_reset_list.json
+
+2. SEND PASSWORD RESET EMAILS
+   - Use the email service to send reset emails to all users
+   - Include instructions for setting new password
+   - Provide support contact for issues
+
+3. USER FIRST LOGIN
+   - Users receive email with reset link
+   - Users click link and set new password
+   - Users can then login normally
+
+4. MONITORING
+   - Track password reset completion rate
+   - Send reminder emails after 7 days
+   - Provide manual reset option for support
+
+SECURITY NOTES:
+---------------
+- Temporary passwords are cryptographically secure (32 hex characters)
+- Temporary passwords are only valid for 24 hours
+- Password reset tokens expire after use
+- All passwords are hashed with bcrypt (10 rounds)
+
+FILES GENERATED:
+----------------
+- supabase_auth_users_raw.json     : Raw Supabase auth data (backup)
+- users_for_migration.json         : Transformed data for import
+- password_reset_list.json         : Email + temp password mapping
+- users_migration.csv              : Human-readable format
+- _auth_export_summary.json        : Export statistics and metadata
+
+NEXT STEPS:
+-----------
+1. Review the exported data
+2. Run the import script: node scripts/import-auth-users.js
+3. Send password reset emails: node scripts/send-password-resets.js
+4. Monitor user migration progress
+
+For questions or issues, refer to the migration documentation.

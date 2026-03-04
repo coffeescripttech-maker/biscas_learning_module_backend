@@ -1,0 +1,28 @@
+{
+  "exportDate": "2026-01-14T11:29:11.852Z",
+  "duration": "0.93 seconds",
+  "statistics": {
+    "totalUsers": 60,
+    "byRole": {
+      "student": 60
+    },
+    "emailVerified": 60,
+    "emailUnverified": 0
+  },
+  "passwordMigrationStrategy": {
+    "method": "force_reset",
+    "description": "All users will receive temporary passwords and must reset on first login",
+    "steps": [
+      "1. Import users into MySQL with temporary passwords",
+      "2. Send password reset emails to all users",
+      "3. Users click reset link and set new password",
+      "4. Users can then login with new password"
+    ]
+  },
+  "files": {
+    "raw": "supabase_auth_users_raw.json",
+    "transformed": "users_for_migration.json",
+    "resetList": "password_reset_list.json",
+    "csv": "users_migration.csv"
+  }
+}

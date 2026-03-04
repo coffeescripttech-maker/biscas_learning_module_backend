@@ -1,0 +1,156 @@
+{
+  "importDate": "2026-01-14T12:19:00.336Z",
+  "duration": "0.26 seconds",
+  "totalTables": 28,
+  "successfulTables": 2,
+  "skippedTables": 26,
+  "failedTables": 0,
+  "totalRecords": 0,
+  "totalSkippedRecords": 63,
+  "results": [
+    {
+      "tableName": "profiles",
+      "recordsTotal": 60,
+      "recordsImported": 0,
+      "recordsSkipped": 60,
+      "skipped": false
+    },
+    {
+      "tableName": "classes",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "class_students",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "lessons",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "lesson_progress",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "quizzes",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "quiz_questions",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "quiz_assignees",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "quiz_class_assignees",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "quiz_results",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "activities",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "activity_assignees",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "activity_class_assignees",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "submissions",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "announcements",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "vark_module_categories",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "vark_modules",
+      "recordsTotal": 3,
+      "recordsImported": 0,
+      "recordsSkipped": 3,
+      "skipped": false
+    },
+    {
+      "tableName": "vark_module_sections",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "vark_module_progress",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "vark_module_assignments",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "vark_learning_paths",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "vark_module_feedback",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "module_completions",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "student_badges",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "teacher_notifications",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "student_module_submissions",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "file_storage",
+      "recordsImported": 0,
+      "skipped": true
+    },
+    {
+      "tableName": "files",
+      "recordsImported": 0,
+      "skipped": true
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "exportDate": "2026-01-14T11:25:05.403Z",
+  "duration": "45.49 seconds",
+  "totalTables": 28,
+  "successfulTables": 25,
+  "skippedTables": 0,
+  "failedTables": 3,
+  "totalRecords": 63,
+  "results": [
+    {
+      "tableName": "profiles",
+      "records": 60,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\profiles.json",
+      "skipped": false
+    },
+    {
+      "tableName": "classes",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\classes.json",
+      "skipped": false
+    },
+    {
+      "tableName": "class_students",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\class_students.json",
+      "skipped": false
+    },
+    {
+      "tableName": "lessons",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\lessons.json",
+      "skipped": false
+    },
+    {
+      "tableName": "lesson_progress",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\lesson_progress.json",
+      "skipped": false
+    },
+    {
+      "tableName": "quizzes",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quizzes.json",
+      "skipped": false
+    },
+    {
+      "tableName": "quiz_questions",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quiz_questions.json",
+      "skipped": false
+    },
+    {
+      "tableName": "quiz_assignees",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quiz_assignees.json",
+      "skipped": false
+    },
+    {
+      "tableName": "quiz_class_assignees",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quiz_class_assignees.json",
+      "skipped": false
+    },
+    {
+      "tableName": "quiz_results",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quiz_results.json",
+      "skipped": false
+    },
+    {
+      "tableName": "activities",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\activities.json",
+      "skipped": false
+    },
+    {
+      "tableName": "activity_assignees",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\activity_assignees.json",
+      "skipped": false
+    },
+    {
+      "tableName": "activity_class_assignees",
+      "records": 0,
+      "error": "Could not find the table 'public.activity_class_assignees' in the schema cache",
+      "skipped": false
+    },
+    {
+      "tableName": "submissions",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\submissions.json",
+      "skipped": false
+    },
+    {
+      "tableName": "announcements",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\announcements.json",
+      "skipped": false
+    },
+    {
+      "tableName": "vark_module_categories",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_categories.json",
+      "skipped": false
+    },
+    {
+      "tableName": "vark_modules",
+      "records": 3,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_modules.json",
+      "skipped": false
+    },
+    {
+      "tableName": "vark_module_sections",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_sections.json",
+      "skipped": false
+    },
+    {
+      "tableName": "vark_module_progress",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_progress.json",
+      "skipped": false
+    },
+    {
+      "tableName": "vark_module_assignments",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_assignments.json",
+      "skipped": false
+    },
+    {
+      "tableName": "vark_learning_paths",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_learning_paths.json",
+      "skipped": false
+    },
+    {
+      "tableName": "vark_module_feedback",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_feedback.json",
+      "skipped": false
+    },
+    {
+      "tableName": "module_completions",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\module_completions.json",
+      "skipped": false
+    },
+    {
+      "tableName": "student_badges",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\student_badges.json",
+      "skipped": false
+    },
+    {
+      "tableName": "teacher_notifications",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\teacher_notifications.json",
+      "skipped": false
+    },
+    {
+      "tableName": "student_module_submissions",
+      "records": 0,
+      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\student_module_submissions.json",
+      "skipped": false
+    },
+    {
+      "tableName": "file_storage",
+      "records": 0,
+      "error": "Could not find the table 'public.file_storage' in the schema cache",
+      "skipped": false
+    },
+    {
+      "tableName": "files",
+      "records": 0,
+      "error": "Could not find the table 'public.files' in the schema cache",
+      "skipped": false
+    }
+  ]
+}
