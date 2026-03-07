@@ -9,6 +9,9 @@ class Profile {
     this.middleName = data.middle_name;
     this.lastName = data.last_name;
     this.fullName = data.full_name;
+    this.phoneNumber = data.phone_number;
+    this.department = data.department;
+    this.specialization = data.specialization;
     this.gradeLevel = data.grade_level;
     this.learningStyle = data.learning_style;
     this.preferredModules = data.preferred_modules;
@@ -78,6 +81,9 @@ class Profile {
       middle_name: profileData.middleName,
       last_name: profileData.lastName,
       full_name: profileData.fullName,
+      phone_number: profileData.phoneNumber,
+      department: profileData.department,
+      specialization: profileData.specialization,
       grade_level: profileData.gradeLevel,
       learning_style: profileData.learningStyle,
       preferred_modules: profileData.preferredModules,
@@ -93,16 +99,20 @@ class Profile {
     await db.query(
       `INSERT INTO profiles 
        (id, user_id, first_name, middle_name, last_name, full_name, 
+        phone_number, department, specialization,
         grade_level, learning_style, preferred_modules, learning_type, 
         onboarding_completed)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [
         profile.id,
-        profileData.userId,  // Use the original parameter, not profile.userId
+        profile.userId,
         profile.firstName,
         profile.middleName,
         profile.lastName,
         profile.fullName,
+        profile.phoneNumber,
+        profile.department,
+        profile.specialization,
         profile.gradeLevel,
         profile.learningStyle,
         preferredModulesJson,
@@ -111,7 +121,7 @@ class Profile {
       ]
     );
 
-    return profile;
+    return await Profile.findByUserId(profile.userId);
   }
 
   /**
@@ -123,6 +133,7 @@ class Profile {
   static async update(userId, updates) {
     const allowedFields = [
       'first_name', 'middle_name', 'last_name', 'full_name',
+      'phone_number', 'department', 'specialization',
       'grade_level', 'learning_style', 'preferred_modules',
       'learning_type', 'onboarding_completed'
     ];

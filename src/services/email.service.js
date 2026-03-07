@@ -3,7 +3,7 @@ const config = require('../config');
 
 class EmailService {
   constructor() {
-    // Create transporter
+    // Create transporter with better timeout and connection settings for cloud hosting
     this.transporter = nodemailer.createTransport({
       host: config.email.host,
       port: config.email.port,
@@ -11,7 +11,14 @@ class EmailService {
       auth: {
         user: config.email.user,
         pass: config.email.password
-      }
+      },
+      // Add these settings for better cloud hosting compatibility
+      connectionTimeout: 10000, // 10 seconds
+      greetingTimeout: 10000,
+      socketTimeout: 10000,
+      // Enable debug logging in development
+      debug: process.env.NODE_ENV === 'development',
+      logger: process.env.NODE_ENV === 'development'
     });
   }
 

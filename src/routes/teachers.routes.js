@@ -1,24 +1,41 @@
 const express = require('express');
 const router = express.Router();
 const teachersController = require('../controllers/teachers.controller');
-const { verifyToken } = require('../middleware/auth');
+const { verifyToken, requireTeacher } = require('../middleware/auth');
 
-// All routes require authentication
-router.use(verifyToken);
+/**
+ * @route   GET /api/teachers
+ * @desc    Get all teachers
+ * @access  Private (Teacher/Admin only)
+ */
+router.get('/', verifyToken, requireTeacher, teachersController.getAll);
 
-// Teacher dashboard statistics
-router.get('/:teacherId/stats', teachersController.getDashboardStats);
+/**
+ * @route   GET /api/teachers/:id
+ * @desc    Get teacher by ID
+ * @access  Private (Teacher/Admin only)
+ */
+router.get('/:id', verifyToken, requireTeacher, teachersController.getById);
 
-// Learning style distribution
-router.get('/:teacherId/learning-style-distribution', teachersController.getLearningStyleDistribution);
+/**
+ * @route   POST /api/teachers
+ * @desc    Create a new teacher
+ * @access  Private (Teacher/Admin only)
+ */
+router.post('/', verifyToken, requireTeacher, teachersController.create);
 
-// Learning type distribution
-router.get('/:teacherId/learning-type-distribution', teachersController.getLearningTypeDistribution);
+/**
+ * @route   PUT /api/teachers/:id
+ * @desc    Update teacher
+ * @access  Private (Teacher/Admin only)
+ */
+router.put('/:id', verifyToken, requireTeacher, teachersController.update);
 
-// Recent module completions
-router.get('/:teacherId/recent-completions', teachersController.getRecentCompletions);
-
-// Student list
-router.get('/:teacherId/students', teachersController.getStudentList);
+/**
+ * @route   DELETE /api/teachers/:id
+ * @desc    Delete teacher
+ * @access  Private (Teacher/Admin only)
+ */
+router.delete('/:id', verifyToken, requireTeacher, teachersController.delete);
 
 module.exports = router;
