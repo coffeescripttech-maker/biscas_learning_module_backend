@@ -15,6 +15,11 @@ router.get('/', verifyToken, requireTeacher, teachersController.getAll);
  * @desc    Get teacher by ID
  * @access  Private (Teacher/Admin only)
  */
+router.get('/:id/stats', verifyToken, requireTeacher, teachersController.getStats);
+router.get('/:id/learning-style-distribution', verifyToken, requireTeacher, teachersController.getLearningStyleDistribution);
+router.get('/:id/learning-type-distribution', verifyToken, requireTeacher, teachersController.getLearningTypeDistribution);
+router.get('/:id/recent-completions', verifyToken, requireTeacher, teachersController.getRecentCompletions);
+router.get('/:id/students', verifyToken, requireTeacher, teachersController.getStudents);
 router.get('/:id', verifyToken, requireTeacher, teachersController.getById);
 
 /**

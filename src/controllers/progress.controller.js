@@ -474,6 +474,64 @@ class ProgressController {
   }
 
   /**
+   * Reset student progress for a module (delete progress, completion, and submissions)
+   * DELETE /api/progress/student/:studentId/module/:moduleId/reset
+   */
+  async resetStudentModuleProgress(req, res) {
+    try {
+      const { studentId, moduleId } = req.params;
+      const db = require('../utils/db');
+
+      logger.info('Resetting student module progress', {
+        studentId,
+        moduleId,
+        resetBy: req.user.userId
+      });
+
+      // Delete progress record
+      const progress = await Progress.findByStudentAndModule(studentId, moduleId);
+      if (progress) {
+        await Progress.delete(progress.id);
+        logger.info('Progress record deleted');
+      }
+
+      // Delete completion record
+      await db.query(
+        'DELETE FROM module_completions WHERE student_id = ? AND module_id = ?',
+        [studentId, moduleId]
+      );
+      logger.info('Completion record deleted');
+
+      // Delete submissions
+      await db.query(
+        'DELETE FROM student_module_submissions WHERE student_id = ? AND module_id = ?',
+        [studentId, moduleId]
+      );
+      logger.info('Submissions deleted');
+
+      logger.info('Student module progress reset successfully', {
+        studentId,
+        moduleId
+      });
+
+      res.json({
+        success: true,
+        message: 'Student progress reset successfully'
+      });
+    } catch (error) {
+      logger.error('Reset progress error:', error);
+      res.status(500).json({
+        error: {
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Failed to reset progress',
+          details: error.message,
+          timestamp: new Date().toISOString()
+        }
+      });
+    }
+  }
+
+  /**
    * Get student progress statistics
    * GET /api/progress/student/:studentId/stats
    */

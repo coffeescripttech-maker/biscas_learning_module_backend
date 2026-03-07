@@ -105,4 +105,11 @@ router.put('/:id', verifyToken, progressController.updateProgress);
  */
 router.delete('/:id', verifyToken, requireTeacher, progressController.deleteProgress);
 
+/**
+ * @route   DELETE /api/progress/student/:studentId/module/:moduleId/reset
+ * @desc    Reset student progress for a module (deletes progress, completion, and submissions)
+ * @access  Private (Teacher/Admin only)
+ */
+router.delete('/student/:studentId/module/:moduleId/reset', verifyToken, requireTeacher, progressController.resetStudentModuleProgress);
+
 module.exports = router;

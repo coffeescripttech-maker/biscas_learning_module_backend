@@ -202,8 +202,8 @@ class Progress {
       /SELECT .+ FROM/,
       'SELECT COUNT(*) as total FROM'
     );
-    const [countResult] = await db.query(countQuery, params);
-    const total = countResult[0].total;
+    const countResult = await db.query(countQuery, params);
+    const total = countResult[0]?.total || 0;
 
     // Add ordering and pagination
     query += ' ORDER BY p.last_accessed_at DESC LIMIT ? OFFSET ?';
@@ -260,8 +260,8 @@ class Progress {
       /SELECT .+ FROM/,
       'SELECT COUNT(*) as total FROM'
     );
-    const [countResult] = await db.query(countQuery, params);
-    const total = countResult[0].total;
+    const countResult = await db.query(countQuery, params);
+    const total = countResult[0]?.total || 0;
 
     // Add ordering and pagination
     query += ' ORDER BY p.last_accessed_at DESC LIMIT ? OFFSET ?';
