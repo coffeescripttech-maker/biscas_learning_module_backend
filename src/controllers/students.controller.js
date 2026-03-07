@@ -655,31 +655,46 @@ class StudentsController {
       }
 
       // Get recent completions (limit 3)
-      const completions = await Completion.findByStudent(id);
-      const recentCompletions = completions.slice(0, 3).map(c => ({
-        id: c.id,
-        type: 'module_completion',
-        title: c.module_title || 'Unknown Module',
-        status: 'completed',
-        timestamp: c.completionDate,
-        score: c.finalScore
-      }));
+      let recentCompletions = [];
+      try {
+        const completions = await Completion.findByStudent(id);
+        recentCompletions = (completions || []).slice(0, 3).map(c => ({
+          id: c.id,
+          type: 'module_completion',
+          title: c.module_title || 'Unknown Module',
+          status: 'completed',
+          timestamp: c.completionDate,
+          score: c.finalScore
+        }));
+      } catch (completionError) {
+        logger.warn('Error fetching completions:', completionError.message);
+        // Continue with empty completions
+      }
 
       // Get recent progress (limit 3, in-progress only)
-      const Progress = require('../models/Progress');
-      const { progress } = await Progress.findByStudentId(id, { 
-        status: 'in_progress',
-        limit: 3,
-        offset: 0
-      });
-      const recentProgress = progress.map(p => ({
-        id: p.id,
-        type: 'module_progress',
-        title: p.moduleTitle || 'Unknown Module',
-        status: 'in_progress',
-        timestamp: p.lastAccessedAt,
-        progress: p.progressPercentage
-      }));
+      let recentProgress = [];
+      try {
+        const Progress = require('../models/Progress');
+        const progressResult = await Progress.findByStudentId(id, { 
+          status: 'in_progress',
+          limit: 3,
+          offset: 0
+        });
+        
+        // Handle case where progress might be undefined or empty
+        const progress = progressResult?.progress || [];
+        recentProgress = progress.map(p => ({
+          id: p.id,
+          type: 'module_progress',
+          title: p.moduleTitle || 'Unknown Module',
+          status: 'in_progress',
+          timestamp: p.lastAccessedAt,
+          progress: p.progressPercentage
+        }));
+      } catch (progressError) {
+        logger.warn('Error fetching progress:', progressError.message);
+        // Continue with empty progress
+      }
 
       // Merge and sort by timestamp descending
       const allActivities = [...recentCompletions, ...recentProgress];

@@ -33,7 +33,7 @@ app.use(helmet());
 
 // CORS configuration
 app.use(cors({
-  origin: 'https://cellular-reproduction-learning-modu-omega.vercel.app',
+  origin: ['https://cellular-reproduction-learning-modu-omega.vercel.app','http://localhost:3000'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']

@@ -132,8 +132,8 @@ class Class {
 
     // Get total count
     const countQuery = `SELECT COUNT(*) as total FROM (${query}) as counted`;
-    const [countResult] = await db.query(countQuery, params);
-    const total = countResult[0].total;
+    const countResult = await db.query(countQuery, params);
+    const total = countResult[0]?.total || 0;
 
     // Add ordering and pagination
     query += ' ORDER BY c.created_at DESC LIMIT ? OFFSET ?';
