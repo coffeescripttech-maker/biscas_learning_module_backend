@@ -9,13 +9,36 @@ const { v4: uuidv4 } = require('uuid');
 class StudentsController {
   /**
    * Get all students
-   * GET /api/students
+   * GET /api/students?gradeLevel=Grade%207&learningStyle=visual&search=john
    */
   async getAll(req, res) {
     try {
-      logger.info('Fetching all students');
+      const { gradeLevel, learningStyle, search, limit, offset } = req.query;
+      
+      logger.info('Fetching students with filters:', { gradeLevel, learningStyle, search, limit, offset });
 
-      // Get all users with role 'student' including their profiles
+      // If filters are provided, use Student.findAll which supports filtering
+      if (gradeLevel || learningStyle || search || limit || offset) {
+        const options = {
+          gradeLevel,
+          learningStyle,
+          search,
+          limit: limit ? parseInt(limit) : 50,
+          offset: offset ? parseInt(offset) : 0
+        };
+
+        const { students, total } = await Student.findAll(options);
+
+        logger.info(`Found ${students.length} students (total: ${total})`);
+
+        return res.json({
+          success: true,
+          data: students.map(s => s.toJSON()),
+          total
+        });
+      }
+
+      // No filters - get all users with role 'student' including their profiles
       const students = await User.findByRole('student');
 
       logger.info(`Found ${students.length} students`);

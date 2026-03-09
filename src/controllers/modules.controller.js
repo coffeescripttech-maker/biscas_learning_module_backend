@@ -202,16 +202,12 @@ class ModulesController {
         });
       }
 
-      // Only creator or admin can update
-      if (existingModule.createdBy !== req.user.userId && req.user.role !== 'admin') {
-        return res.status(403).json({
-          error: {
-            code: 'AUTH_FORBIDDEN',
-            message: 'You do not have permission to update this module',
-            timestamp: new Date().toISOString()
-          }
-        });
-      }
+      // Allow any teacher to update any module (collaborative editing)
+      logger.info('Updating module', {
+        moduleId: id,
+        userId: req.user.userId,
+        originalCreator: existingModule.createdBy
+      });
 
       // Update module
       const module = await Module.update(id, updates);
@@ -268,16 +264,12 @@ class ModulesController {
         });
       }
 
-      // Only creator or admin can delete
-      if (existingModule.createdBy !== req.user.userId && req.user.role !== 'admin') {
-        return res.status(403).json({
-          error: {
-            code: 'AUTH_FORBIDDEN',
-            message: 'You do not have permission to delete this module',
-            timestamp: new Date().toISOString()
-          }
-        });
-      }
+      // Allow any teacher to delete any module (collaborative editing)
+      logger.info('Deleting module', {
+        moduleId: id,
+        userId: req.user.userId,
+        originalCreator: existingModule.createdBy
+      });
 
       // Delete module
       await Module.delete(id);
