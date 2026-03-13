@@ -157,13 +157,17 @@ app.use((req, res, next) => {
 
 // Error handling middleware - must be last
 app.use((err, req, res, next) => {
-  // Log error
-  logger.error({
+  // Enhanced error logging
+  logger.error('❌ [ERROR HANDLER] Unhandled error', {
     message: err.message,
     stack: err.stack,
     url: req.url,
     method: req.method,
-    statusCode: err.statusCode || 500
+    statusCode: err.statusCode || 500,
+    code: err.code,
+    userAgent: req.get('user-agent'),
+    origin: req.get('origin'),
+    timestamp: new Date().toISOString()
   });
   
   // Determine status code

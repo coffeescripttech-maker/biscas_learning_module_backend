@@ -115,16 +115,26 @@ class ModulesController {
    * Proxy R2 content through backend
    * GET /api/modules/:id/content
    * This avoids DNS resolution issues with R2 public URLs
+   * Uses redirect to avoid memory issues with large files
    */
   async getModuleContent(req, res) {
+    const startTime = Date.now();
+    const { id } = req.params;
+    
     try {
-      const { id } = req.params;
+      logger.info('🔄 [MODULE CONTENT] Starting request', {
+        moduleId: id,
+        timestamp: new Date().toISOString(),
+        userAgent: req.get('user-agent'),
+        origin: req.get('origin')
+      });
 
-      logger.info('Proxying module content for:', id);
-
+      // Step 1: Find module in database
+      logger.info('📊 [MODULE CONTENT] Fetching module from database', { moduleId: id });
       const module = await Module.findById(id);
 
       if (!module) {
+        logger.warn('⚠️ [MODULE CONTENT] Module not found in database', { moduleId: id });
         return res.status(404).json({
           error: {
             code: 'DB_NOT_FOUND',
@@ -134,7 +144,17 @@ class ModulesController {
         });
       }
 
+      logger.info('✅ [MODULE CONTENT] Module found', {
+        moduleId: id,
+        title: module.title,
+        hasContentUrl: !!module.jsonContentUrl
+      });
+
       if (!module.jsonContentUrl) {
+        logger.warn('⚠️ [MODULE CONTENT] Module has no content URL', {
+          moduleId: id,
+          title: module.title
+        });
         return res.status(404).json({
           error: {
             code: 'CONTENT_NOT_FOUND',
@@ -144,20 +164,31 @@ class ModulesController {
         });
       }
 
-      // Fetch content from R2
-      logger.info('Fetching from R2:', module.jsonContentUrl);
-      const response = await fetch(module.jsonContentUrl);
+      // Step 2: Redirect to R2 URL (memory efficient - no proxying)
+      // This avoids loading large files into backend memory
+      logger.info('🔀 [MODULE CONTENT] Redirecting to R2', {
+        moduleId: id,
+        url: module.jsonContentUrl
+      });
 
-      if (!response.ok) {
-        throw new Error(`R2 fetch failed: ${response.status} ${response.statusText}`);
-      }
+      const totalDuration = Date.now() - startTime;
+      logger.info('✅ [MODULE CONTENT] Redirect sent', {
+        moduleId: id,
+        totalDuration: `${totalDuration}ms`
+      });
 
-      const content = await response.json();
-
-      // Return the content
-      res.json(content);
+      // Send 307 redirect (preserves method and body)
+      res.redirect(307, module.jsonContentUrl);
+      
     } catch (error) {
-      logger.error('Get module content error:', error);
+      const totalDuration = Date.now() - startTime;
+      logger.error('❌ [MODULE CONTENT] Request failed', {
+        moduleId: id,
+        error: error.message,
+        stack: error.stack,
+        duration: `${totalDuration}ms`
+      });
+      
       res.status(500).json({
         error: {
           code: 'INTERNAL_SERVER_ERROR',
