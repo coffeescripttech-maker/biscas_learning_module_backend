@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../config/database');
+const db = require('../utils/db');
 
 /**
  * GET /api/stats/homepage
@@ -12,61 +12,51 @@ router.get('/homepage', async (req, res) => {
 
     // Fetch all statistics in parallel
     const [
-      [studentsResult],
-      [teachersResult],
-      [modulesResult],
-      [completedModulesResult],
-      [recentStudentsResult],
-      [recentTeachersResult],
-      [classesResult],
-      [quizzesResult],
-      [activitiesResult]
+      studentsResult,
+      teachersResult,
+      modulesResult,
+      completedModulesResult,
+      recentStudentsResult,
+      recentTeachersResult,
+      classesResult
     ] = await Promise.all([
       // Total students
-      db.query('SELECT COUNT(*) as count FROM profiles WHERE role = ?', ['student']),
+      db.query('SELECT COUNT(*) as count FROM users WHERE role = ?', ['student']),
       
       // Total teachers
-      db.query('SELECT COUNT(*) as count FROM profiles WHERE role = ?', ['teacher']),
+      db.query('SELECT COUNT(*) as count FROM users WHERE role = ?', ['teacher']),
       
       // Total published modules
       db.query('SELECT COUNT(*) as count FROM vark_modules WHERE is_published = ?', [true]),
       
-      // Completed modules (students with onboarding completed)
-      db.query('SELECT COUNT(*) as count FROM profiles WHERE role = ? AND onboarding_completed = ?', ['student', true]),
+      // Completed modules count
+      db.query('SELECT COUNT(*) as count FROM module_completions'),
       
       // Recent students (last 30 days)
       db.query(
-        'SELECT COUNT(*) as count FROM profiles WHERE role = ? AND created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)',
+        'SELECT COUNT(*) as count FROM users WHERE role = ? AND created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)',
         ['student']
       ),
       
       // Recent teachers (last 30 days)
       db.query(
-        'SELECT COUNT(*) as count FROM profiles WHERE role = ? AND created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)',
+        'SELECT COUNT(*) as count FROM users WHERE role = ? AND created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)',
         ['teacher']
       ),
       
       // Total classes
-      db.query('SELECT COUNT(*) as count FROM classes'),
-      
-      // Total published quizzes
-      db.query('SELECT COUNT(*) as count FROM quizzes WHERE is_published = ?', [true]),
-      
-      // Total published activities
-      db.query('SELECT COUNT(*) as count FROM activities WHERE is_published = ?', [true])
+      db.query('SELECT COUNT(*) as count FROM classes')
     ]);
 
-    const totalStudents = studentsResult.count || 0;
-    const totalTeachers = teachersResult.count || 0;
-    const totalModules = modulesResult.count || 0;
-    const completedModules = completedModulesResult.count || 0;
-    const recentStudents = recentStudentsResult.count || 0;
-    const recentTeachers = recentTeachersResult.count || 0;
-    const totalClasses = classesResult.count || 0;
-    const totalQuizzes = quizzesResult.count || 0;
-    const totalActivities = activitiesResult.count || 0;
+    const totalStudents = studentsResult[0]?.count || 0;
+    const totalTeachers = teachersResult[0]?.count || 0;
+    const totalModules = modulesResult[0]?.count || 0;
+    const completedModules = completedModulesResult[0]?.count || 0;
+    const recentStudents = recentStudentsResult[0]?.count || 0;
+    const recentTeachers = recentTeachersResult[0]?.count || 0;
+    const totalClasses = classesResult[0]?.count || 0;
 
-    // Calculate success rate (percentage of students who completed onboarding)
+    // Calculate success rate (percentage of students who completed modules)
     const successRate = totalStudents > 0 
       ? Math.round((completedModules / totalStudents) * 100) 
       : 0;
@@ -76,8 +66,8 @@ router.get('/homepage', async (req, res) => {
       totalTeachers,
       totalModules,
       totalClasses,
-      totalQuizzes,
-      totalActivities,
+      totalQuizzes: 0, // Not implemented yet
+      totalActivities: 0, // Not implemented yet
       successRate,
       recentActivity: {
         newStudents: recentStudents,

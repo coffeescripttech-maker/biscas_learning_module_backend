@@ -65,6 +65,13 @@ router.get('/:id/submission-stats', verifyToken, requireTeacher, modulesControll
 router.get('/:id/completions', verifyToken, requireTeacher, modulesController.getModuleCompletions);
 
 /**
+ * @route   GET /api/modules/:id/content
+ * @desc    Proxy R2 module content through backend (avoids DNS issues)
+ * @access  Private (Authenticated users)
+ */
+router.get('/:id/content', verifyToken, modulesController.getModuleContent);
+
+/**
  * @route   GET /api/modules/:id
  * @desc    Get module by ID
  * @access  Private (Authenticated users)

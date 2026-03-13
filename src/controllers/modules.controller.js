@@ -112,6 +112,64 @@ class ModulesController {
   }
 
   /**
+   * Proxy R2 content through backend
+   * GET /api/modules/:id/content
+   * This avoids DNS resolution issues with R2 public URLs
+   */
+  async getModuleContent(req, res) {
+    try {
+      const { id } = req.params;
+
+      logger.info('Proxying module content for:', id);
+
+      const module = await Module.findById(id);
+
+      if (!module) {
+        return res.status(404).json({
+          error: {
+            code: 'DB_NOT_FOUND',
+            message: 'Module not found',
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+
+      if (!module.jsonContentUrl) {
+        return res.status(404).json({
+          error: {
+            code: 'CONTENT_NOT_FOUND',
+            message: 'Module content URL not found',
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+
+      // Fetch content from R2
+      logger.info('Fetching from R2:', module.jsonContentUrl);
+      const response = await fetch(module.jsonContentUrl);
+
+      if (!response.ok) {
+        throw new Error(`R2 fetch failed: ${response.status} ${response.statusText}`);
+      }
+
+      const content = await response.json();
+
+      // Return the content
+      res.json(content);
+    } catch (error) {
+      logger.error('Get module content error:', error);
+      res.status(500).json({
+        error: {
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Failed to fetch module content',
+          details: error.message,
+          timestamp: new Date().toISOString()
+        }
+      });
+    }
+  }
+
+  /**
    * Create a new module
    * POST /api/modules
    */
