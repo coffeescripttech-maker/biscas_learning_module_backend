@@ -252,47 +252,73 @@ class ModulesController {
         url: module.jsonContentUrl
       });
 
-      // Step 2: Stream from R2 to client (memory efficient)
-      const fetch = (await import('node-fetch')).default;
-      const r2Response = await fetch(module.jsonContentUrl);
-
-      if (!r2Response.ok) {
-        logger.error('❌ [MODULE PROXY] R2 fetch failed', {
-          moduleId: id,
-          status: r2Response.status,
-          statusText: r2Response.statusText
-        });
-        return res.status(502).json({
-          error: {
-            code: 'R2_FETCH_FAILED',
-            message: 'Failed to fetch content from storage',
-            timestamp: new Date().toISOString()
-          }
-        });
-      }
-
-      // Set appropriate headers
-      res.setHeader('Content-Type', 'application/json');
-      res.setHeader('Cache-Control', 'public, max-age=3600');
+      // Step 2: Stream from R2 to client using https module (memory efficient)
+      const https = require('https');
+      const url = new URL(module.jsonContentUrl);
       
-      // Copy content-length if available
-      const contentLength = r2Response.headers.get('content-length');
-      if (contentLength) {
-        res.setHeader('Content-Length', contentLength);
-      }
+      const options = {
+        hostname: url.hostname,
+        path: url.pathname + url.search,
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json'
+        }
+      };
 
-      // Stream the response body directly (memory efficient - only ~5MB buffer)
-      // This pipes the R2 response directly to the client without loading into memory
-      r2Response.body.pipe(res);
-      
-      // Log completion when stream finishes
-      res.on('finish', () => {
-        const totalDuration = Date.now() - startTime;
-        logger.info('✅ [MODULE PROXY] Content streamed successfully', {
-          moduleId: id,
-          totalDuration: `${totalDuration}ms`,
-          contentLength: contentLength || 'unknown'
+      https.get(options, (r2Response) => {
+        if (r2Response.statusCode !== 200) {
+          logger.error('❌ [MODULE PROXY] R2 fetch failed', {
+            moduleId: id,
+            status: r2Response.statusCode,
+            statusMessage: r2Response.statusMessage
+          });
+          return res.status(502).json({
+            error: {
+              code: 'R2_FETCH_FAILED',
+              message: 'Failed to fetch content from storage',
+              timestamp: new Date().toISOString()
+            }
+          });
+        }
+
+        // Set appropriate headers
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Cache-Control', 'public, max-age=3600');
+        
+        // Copy content-length if available
+        if (r2Response.headers['content-length']) {
+          res.setHeader('Content-Length', r2Response.headers['content-length']);
+        }
+
+        // Stream the response body directly (memory efficient - only ~5MB buffer)
+        // This pipes the R2 response directly to the client without loading into memory
+        r2Response.pipe(res);
+        
+        // Log completion when stream finishes
+        res.on('finish', () => {
+          const totalDuration = Date.now() - startTime;
+          logger.info('✅ [MODULE PROXY] Content streamed successfully', {
+            moduleId: id,
+            totalDuration: `${totalDuration}ms`,
+            contentLength: r2Response.headers['content-length'] || 'unknown'
+          });
         });
+      }).on('error', (error) => {
+        logger.error('❌ [MODULE PROXY] HTTPS request failed', {
+          moduleId: id,
+          error: error.message
+        });
+        
+        if (!res.headersSent) {
+          res.status(500).json({
+            error: {
+              code: 'INTERNAL_SERVER_ERROR',
+              message: 'Failed to proxy module content',
+              details: error.message,
+              timestamp: new Date().toISOString()
+            }
+          });
+        }
       });
       
     } catch (error) {
