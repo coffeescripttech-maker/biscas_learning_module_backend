@@ -353,6 +353,45 @@ class Module {
       }
     }
 
+    // Also handle snake_case fields directly (for backward compatibility)
+    const snakeCaseFields = [
+      'category_id',
+      'title',
+      'description',
+      'learning_objectives',
+      'content_structure',
+      'difficulty_level',
+      'estimated_duration_minutes',
+      'prerequisites',
+      'multimedia_content',
+      'interactive_elements',
+      'assessment_questions',
+      'module_metadata',
+      'json_backup_url',
+      'json_content_url',
+      'content_summary',
+      'target_class_id',
+      'target_learning_styles',
+      'prerequisite_module_id',
+      'is_published'
+    ];
+
+    for (const field of snakeCaseFields) {
+      if (updates[field] !== undefined && updateFields[field] === undefined) {
+        // Handle JSON fields
+        if (jsonFields.includes(field)) {
+          updateFields[field] = updates[field] !== null 
+            ? JSON.stringify(updates[field]) 
+            : null;
+        } else {
+          updateFields[field] = updates[field];
+        }
+      }
+    }
+
+    console.log('📝 Update fields being sent to database:', Object.keys(updateFields));
+    console.log('🔗 json_content_url value:', updateFields.json_content_url);
+
     if (Object.keys(updateFields).length > 0) {
       const { sql, params } = db.buildUpdate('vark_modules', updateFields, { id });
       await db.query(sql, params);
