@@ -201,6 +201,124 @@ class ModulesController {
   }
 
   /**
+   * Proxy R2 content through backend (fallback for DNS issues)
+   * GET /api/modules/:id/content-proxy
+   * This endpoint streams content from R2 through the backend
+   * Only used when direct R2 access fails due to DNS issues
+   * Uses streaming to minimize memory usage (~5MB instead of 50MB)
+   */
+  async proxyModuleContent(req, res) {
+    const startTime = Date.now();
+    const { id } = req.params;
+    
+    try {
+      logger.info('🔄 [MODULE PROXY] Starting proxy request', {
+        moduleId: id,
+        timestamp: new Date().toISOString(),
+        userAgent: req.get('user-agent'),
+        origin: req.get('origin')
+      });
+
+      // Step 1: Find module in database
+      const module = await Module.findById(id);
+
+      if (!module) {
+        logger.warn('⚠️ [MODULE PROXY] Module not found in database', { moduleId: id });
+        return res.status(404).json({
+          error: {
+            code: 'DB_NOT_FOUND',
+            message: 'Module not found',
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+
+      if (!module.jsonContentUrl) {
+        logger.warn('⚠️ [MODULE PROXY] Module has no content URL', {
+          moduleId: id,
+          title: module.title
+        });
+        return res.status(404).json({
+          error: {
+            code: 'CONTENT_NOT_FOUND',
+            message: 'Module content URL not found',
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+
+      logger.info('📥 [MODULE PROXY] Streaming from R2', {
+        moduleId: id,
+        url: module.jsonContentUrl
+      });
+
+      // Step 2: Stream from R2 to client (memory efficient)
+      const fetch = (await import('node-fetch')).default;
+      const r2Response = await fetch(module.jsonContentUrl);
+
+      if (!r2Response.ok) {
+        logger.error('❌ [MODULE PROXY] R2 fetch failed', {
+          moduleId: id,
+          status: r2Response.status,
+          statusText: r2Response.statusText
+        });
+        return res.status(502).json({
+          error: {
+            code: 'R2_FETCH_FAILED',
+            message: 'Failed to fetch content from storage',
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+
+      // Set appropriate headers
+      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Cache-Control', 'public, max-age=3600');
+      
+      // Copy content-length if available
+      const contentLength = r2Response.headers.get('content-length');
+      if (contentLength) {
+        res.setHeader('Content-Length', contentLength);
+      }
+
+      // Stream the response body directly (memory efficient - only ~5MB buffer)
+      // This pipes the R2 response directly to the client without loading into memory
+      r2Response.body.pipe(res);
+      
+      // Log completion when stream finishes
+      res.on('finish', () => {
+        const totalDuration = Date.now() - startTime;
+        logger.info('✅ [MODULE PROXY] Content streamed successfully', {
+          moduleId: id,
+          totalDuration: `${totalDuration}ms`,
+          contentLength: contentLength || 'unknown'
+        });
+      });
+      
+    } catch (error) {
+      const totalDuration = Date.now() - startTime;
+      logger.error('❌ [MODULE PROXY] Proxy request failed', {
+        moduleId: id,
+        error: error.message,
+        stack: error.stack,
+        duration: `${totalDuration}ms`
+      });
+      
+      // Only send error if headers haven't been sent yet
+      if (!res.headersSent) {
+        res.status(500).json({
+          error: {
+            code: 'INTERNAL_SERVER_ERROR',
+            message: 'Failed to proxy module content',
+            details: error.message,
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+    }
+  }
+
+  /**
    * Create a new module
    * POST /api/modules
    */

@@ -66,10 +66,17 @@ router.get('/:id/completions', verifyToken, requireTeacher, modulesController.ge
 
 /**
  * @route   GET /api/modules/:id/content
- * @desc    Proxy R2 module content through backend (avoids DNS issues)
+ * @desc    Redirect to R2 module content (primary method - memory efficient)
  * @access  Private (Authenticated users)
  */
 router.get('/:id/content', verifyToken, modulesController.getModuleContent);
+
+/**
+ * @route   GET /api/modules/:id/content-proxy
+ * @desc    Proxy R2 module content through backend (fallback for DNS issues)
+ * @access  Private (Authenticated users)
+ */
+router.get('/:id/content-proxy', verifyToken, modulesController.proxyModuleContent);
 
 /**
  * @route   GET /api/modules/:id
