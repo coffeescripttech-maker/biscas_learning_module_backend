@@ -2,6 +2,14 @@ const Module = require('../models/Module');
 const logger = require('../utils/logger');
 
 class ModulesController {
+  // Static cache for full content to avoid re-downloading for each section
+  static contentCache = new Map();
+  static cacheTimeout = 5 * 60 * 1000; // 5 minutes
+  static activeDownloads = new Set(); // Track active downloads to prevent duplicates
+
+  constructor() {
+    // Instance constructor
+  }
   /**
    * Get all modules with pagination and filtering
    * GET /api/modules
@@ -542,6 +550,361 @@ class ModulesController {
   }
 
   /**
+   * Progressive content loading - Load metadata first, then sections on demand
+   * GET /api/modules/:id/content-progressive
+   */
+  async getModuleContentProgressive(req, res) {
+    const startTime = Date.now();
+    const { id } = req.params;
+    const { part } = req.query; // 'metadata', 'section-0', 'section-1', etc.
+    
+    try {
+      logger.info('🔄 [PROGRESSIVE] Starting progressive request', {
+        moduleId: id,
+        part: part || 'metadata',
+        timestamp: new Date().toISOString()
+      });
+
+      const module = await Module.findById(id);
+
+      if (!module) {
+        return res.status(404).json({
+          error: {
+            code: 'MODULE_NOT_FOUND',
+            message: 'Module not found',
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+
+      // If no R2 content URL, return database content
+      if (!module.jsonContentUrl) {
+        logger.info('📝 [PROGRESSIVE] No R2 content, returning database content', { moduleId: id });
+        return res.json({
+          id: module.id,
+          title: module.title,
+          description: module.description,
+          learning_objectives: module.learningObjectives || [],
+          content_structure: module.contentStructure || { sections: [] },
+          assessment_questions: module.assessmentQuestions || [],
+          difficulty_level: module.difficultyLevel,
+          estimated_duration_minutes: module.estimatedDurationMinutes,
+          has_progressive_content: false
+        });
+      }
+
+      // Handle different parts of the content
+      if (!part || part === 'metadata') {
+        // Return lightweight metadata for instant loading
+        const metadata = {
+          id: module.id,
+          title: module.title,
+          description: module.description,
+          learning_objectives: module.learningObjectives || [],
+          difficulty_level: module.difficultyLevel,
+          estimated_duration_minutes: module.estimatedDurationMinutes,
+          prerequisites: module.prerequisites || [],
+          target_learning_styles: module.targetLearningStyles || [],
+          prerequisite_module_id: module.prerequisiteModuleId,
+          is_published: module.isPublished,
+          created_by: module.createdBy,
+          creator_name: module.creatorName,
+          created_at: module.createdAt,
+          updated_at: module.updatedAt,
+          category_id: module.categoryId,
+          category_name: module.categoryName,
+          json_content_url: module.jsonContentUrl,
+          
+          // Progressive loading info
+          has_progressive_content: true,
+          content_structure: {
+            sections: [], // Will be populated by section requests
+            total_sections: 0, // Will be determined from full content
+            sections_available: true
+          },
+          assessment_questions: [], // Will be loaded separately
+          multimedia_content: {}, // Will be loaded with sections
+          interactive_elements: {} // Will be loaded with sections
+        };
+
+        // Try to get section count from content_summary if available
+        if (module.contentSummary && typeof module.contentSummary === 'object') {
+          metadata.content_structure.total_sections = module.contentSummary.sections_count || 0;
+        }
+
+        // For very large modules, recommend using optimized loading instead
+        if (metadata.content_structure.total_sections > 100) {
+          console.log(`⚠️ [PROGRESSIVE] Large module detected (${metadata.content_structure.total_sections} sections), recommending optimized loading`);
+          metadata.has_progressive_content = false; // Disable progressive loading for large modules
+          metadata.recommended_loading = 'optimized';
+        }
+
+        logger.info('✅ [PROGRESSIVE] Metadata sent', {
+          moduleId: id,
+          duration: `${Date.now() - startTime}ms`,
+          totalSections: metadata.content_structure.total_sections
+        });
+
+        return res.json({ data: metadata });
+      }
+
+      // Handle specific content parts (sections, assessments, etc.)
+      if (part.startsWith('section-') || part === 'assessments' || part === 'full') {
+        logger.info('📥 [PROGRESSIVE] Fetching specific content part', {
+          moduleId: id,
+          part: part,
+          url: module.jsonContentUrl
+        });
+
+        // Fetch full content from R2 and extract the requested part
+        const fullContent = await ModulesController.fetchFullContentFromR2(module.jsonContentUrl);
+        
+        if (!fullContent) {
+          return res.status(502).json({
+            error: {
+              code: 'CONTENT_FETCH_FAILED',
+              message: 'Failed to fetch content from storage',
+              timestamp: new Date().toISOString()
+            }
+          });
+        }
+
+        let responseData = {};
+
+        if (part === 'assessments') {
+          responseData = {
+            assessment_questions: fullContent.assessment_questions || [],
+            module_id: id
+          };
+        } else if (part === 'full') {
+          // Return full content (fallback for compatibility)
+          responseData = {
+            ...fullContent,
+            // Preserve database metadata
+            id: module.id,
+            created_by: module.createdBy,
+            creator_name: module.creatorName,
+            created_at: module.createdAt,
+            updated_at: module.updatedAt,
+            is_published: module.isPublished,
+            json_content_url: module.jsonContentUrl,
+            category_id: module.categoryId,
+            category_name: module.categoryName
+          };
+        } else if (part.startsWith('section-')) {
+          const sectionIndex = parseInt(part.split('-')[1]);
+          const sections = fullContent.content_structure?.sections || [];
+          
+          if (sectionIndex >= 0 && sectionIndex < sections.length) {
+            responseData = {
+              section_index: sectionIndex,
+              section: sections[sectionIndex],
+              total_sections: sections.length,
+              module_id: id,
+              // Include related multimedia and interactive elements for this section
+              multimedia_content: ModulesController.extractSectionMultimedia(fullContent.multimedia_content, sectionIndex),
+              interactive_elements: ModulesController.extractSectionInteractiveElements(fullContent.interactive_elements, sectionIndex)
+            };
+          } else {
+            return res.status(404).json({
+              error: {
+                code: 'SECTION_NOT_FOUND',
+                message: `Section ${sectionIndex} not found`,
+                timestamp: new Date().toISOString()
+              }
+            });
+          }
+        }
+
+        // Set caching headers for content parts
+        res.setHeader('Cache-Control', 'public, max-age=300'); // 5 minutes
+        res.setHeader('Content-Type', 'application/json');
+
+        logger.info('✅ [PROGRESSIVE] Content part sent', {
+          moduleId: id,
+          part: part,
+          duration: `${Date.now() - startTime}ms`,
+          dataSize: JSON.stringify(responseData).length
+        });
+
+        return res.json({ data: responseData });
+      }
+
+      // Invalid part requested
+      return res.status(400).json({
+        error: {
+          code: 'INVALID_PART',
+          message: `Invalid content part: ${part}`,
+          timestamp: new Date().toISOString()
+        }
+      });
+      
+    } catch (error) {
+      logger.error('❌ [PROGRESSIVE] Request failed', {
+        moduleId: id,
+        part: part || 'metadata',
+        error: error.message
+      });
+      
+      res.status(500).json({
+        error: {
+          code: 'INTERNAL_SERVER_ERROR',
+          message: 'Failed to fetch progressive content',
+          details: error.message,
+          timestamp: new Date().toISOString()
+        }
+      });
+    }
+  }
+
+  /**
+   * Helper method to fetch full content from R2 storage with caching
+   */
+  static async fetchFullContentFromR2(jsonContentUrl) {
+    // Check cache first
+    const cacheKey = jsonContentUrl;
+    const cached = ModulesController.contentCache.get(cacheKey);
+    
+    if (cached && (Date.now() - cached.timestamp) < ModulesController.cacheTimeout) {
+      console.log('📦 [CACHE] Using cached content for:', jsonContentUrl.substring(0, 50) + '...');
+      return cached.content;
+    }
+    
+    // Check if this URL is already being downloaded
+    if (ModulesController.activeDownloads.has(cacheKey)) {
+      console.log('⏳ [DOWNLOAD] Already downloading, waiting for completion...');
+      // Wait for the active download to complete
+      while (ModulesController.activeDownloads.has(cacheKey)) {
+        await new Promise(resolve => setTimeout(resolve, 100));
+        // Check cache again after waiting
+        const nowCached = ModulesController.contentCache.get(cacheKey);
+        if (nowCached && (Date.now() - nowCached.timestamp) < ModulesController.cacheTimeout) {
+          console.log('📦 [CACHE] Content now available from concurrent download');
+          return nowCached.content;
+        }
+      }
+    }
+    
+    // Mark as downloading
+    ModulesController.activeDownloads.add(cacheKey);
+    console.log('📥 [R2] Fetching fresh content from:', jsonContentUrl.substring(0, 50) + '...');
+    
+    try {
+      return await new Promise((resolve, reject) => {
+        const https = require('https');
+        const url = new URL(jsonContentUrl);
+        
+        const options = {
+          hostname: url.hostname,
+          port: url.port || 443,
+          path: url.pathname + url.search,
+          method: 'GET',
+          headers: {
+            'Accept': 'application/json',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'User-Agent': 'BISCAS-Learning-Module-Backend/1.0'
+          },
+          timeout: 30000 // 30 second timeout
+        };
+
+        const request = https.request(options, (response) => {
+          if (response.statusCode !== 200) {
+            return reject(new Error(`R2 request failed with status ${response.statusCode}`));
+          }
+
+          let data = '';
+          
+          // Handle compressed responses
+          let stream = response;
+          if (response.headers['content-encoding'] === 'gzip') {
+            const zlib = require('zlib');
+            stream = response.pipe(zlib.createGunzip());
+          }
+
+          stream.on('data', (chunk) => {
+            data += chunk;
+          });
+
+          stream.on('end', () => {
+            try {
+              const jsonData = JSON.parse(data);
+              
+              // Cache the content
+              ModulesController.contentCache.set(cacheKey, {
+                content: jsonData,
+                timestamp: Date.now()
+              });
+              
+              console.log('✅ [R2] Content fetched and cached');
+              resolve(jsonData);
+            } catch (parseError) {
+              reject(new Error(`Failed to parse JSON: ${parseError.message}`));
+            }
+          });
+
+          stream.on('error', (error) => {
+            reject(error);
+          });
+        });
+
+        request.on('error', (error) => {
+          reject(error);
+        });
+
+        request.on('timeout', () => {
+          request.destroy();
+          reject(new Error('Request timeout'));
+        });
+
+        request.end();
+      });
+    } finally {
+      // Always remove from active downloads
+      ModulesController.activeDownloads.delete(cacheKey);
+    }
+  }
+
+  /**
+   * Extract multimedia content relevant to a specific section
+   */
+  static extractSectionMultimedia(multimediaContent, sectionIndex) {
+    if (!multimediaContent || typeof multimediaContent !== 'object') {
+      return {};
+    }
+
+    // Filter multimedia content that belongs to the specific section
+    const sectionMultimedia = {};
+    
+    Object.keys(multimediaContent).forEach(key => {
+      if (key.includes(`section_${sectionIndex}`) || key.includes(`section-${sectionIndex}`)) {
+        sectionMultimedia[key] = multimediaContent[key];
+      }
+    });
+
+    return sectionMultimedia;
+  }
+
+  /**
+   * Extract interactive elements relevant to a specific section
+   */
+  static extractSectionInteractiveElements(interactiveElements, sectionIndex) {
+    if (!interactiveElements || typeof interactiveElements !== 'object') {
+      return {};
+    }
+
+    // Filter interactive elements that belong to the specific section
+    const sectionInteractive = {};
+    
+    Object.keys(interactiveElements).forEach(key => {
+      if (key.includes(`section_${sectionIndex}`) || key.includes(`section-${sectionIndex}`)) {
+        sectionInteractive[key] = interactiveElements[key];
+      }
+    });
+
+    return sectionInteractive;
+  }
+
+  /**
    * Create a new module
    * POST /api/modules
    */
@@ -935,4 +1298,5 @@ class ModulesController {
   }
 }
 
-module.exports = new ModulesController();
+const moduleController = new ModulesController();
+module.exports = moduleController;

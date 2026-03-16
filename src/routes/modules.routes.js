@@ -93,6 +93,14 @@ router.get('/:id/content-proxy', verifyToken, modulesController.proxyModuleConte
 router.get('/:id/content-optimized', verifyToken, modulesController.getModuleContentOptimized);
 
 /**
+ * @route   GET /api/modules/:id/content-progressive
+ * @desc    Progressive content loading - metadata first, then sections on demand
+ * @access  Private (Authenticated users)
+ * @query   part - Content part to load ('metadata', 'section-0', 'section-1', 'assessments', 'full')
+ */
+router.get('/:id/content-progressive', verifyToken, modulesController.getModuleContentProgressive);
+
+/**
  * @route   GET /api/modules/:id
  * @desc    Get module by ID
  * @access  Private (Authenticated users)
