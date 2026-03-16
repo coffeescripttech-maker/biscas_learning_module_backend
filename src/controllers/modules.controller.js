@@ -77,16 +77,49 @@ class ModulesController {
   }
 
   /**
-   * Get module by ID
-   * GET /api/modules/:id
+   * Test endpoint - Get modules count only
+   * GET /api/modules/test
    */
-  async getModuleById(req, res) {
+  async testModules(req, res) {
     try {
-      const { id } = req.params;
-
+      console.log('🧪 Testing modules endpoint...');
+      
+      // Simple count query
+      const [countResult] = await require('../utils/db').query('SELECT COUNT(*) as total FROM vark_modules');
+      const total = countResult ? countResult.total : 0;
+      
+      console.log('✅ Modules count:', total);
+      
+      res.json({
+        success: true,
+        message: 'Modules test successful',
+        data: {
+          totalModules: total,
+          timestamp: new Date().toISOString()
+        }
+      });
+    } catch (error) {
+      console.error('❌ Test modules error:', error);
+      res.status(500).json({
+        error: {
+          code: 'TEST_ERROR',
+          message: 'Test failed: ' + error.message,
+          timestamp: new Date().toISOString()
+        }
+      });
+    }
+  }
+  async getModuleById(req, res) {
+    const startTime = Date.now();
+    const { id } = req.params;
+    
+    try {
+      console.log('🔍 [GET MODULE BY ID] Starting request for module:', id);
+      
       const module = await Module.findById(id);
 
       if (!module) {
+        console.log('❌ [GET MODULE BY ID] Module not found:', id);
         return res.status(404).json({
           error: {
             code: 'DB_NOT_FOUND',
@@ -96,11 +129,19 @@ class ModulesController {
         });
       }
 
+      const totalDuration = Date.now() - startTime;
+      console.log(`✅ [GET MODULE BY ID] Module retrieved successfully in ${totalDuration}ms:`, {
+        moduleId: id,
+        title: module.title,
+        hasJsonContentUrl: !!module.jsonContentUrl
+      });
+
       res.json({
         data: module.toJSON()
       });
     } catch (error) {
-      logger.error('Get module by ID error:', error);
+      const totalDuration = Date.now() - startTime;
+      logger.error(`❌ [GET MODULE BY ID] Error after ${totalDuration}ms:`, error);
       res.status(500).json({
         error: {
           code: 'INTERNAL_SERVER_ERROR',

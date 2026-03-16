@@ -10,6 +10,13 @@ const { verifyToken, requireTeacher } = require('../middleware/auth');
  */
 
 /**
+ * @route   GET /api/modules/test
+ * @desc    Test modules endpoint - simple count query
+ * @access  Private (Authenticated users)
+ */
+router.get('/test', verifyToken, modulesController.testModules);
+
+/**
  * @route   GET /api/modules
  * @desc    Get all modules with pagination and filtering
  * @access  Private (Authenticated users)
