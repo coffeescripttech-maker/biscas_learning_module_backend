@@ -267,7 +267,7 @@ class Module {
        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [
         moduleId,
-        // Handle category_id - set to null if it's a default/invalid value
+        // Handle foreign key fields - set to null if empty string or invalid value
         (moduleData.categoryId === 'default-category-id' || moduleData.categoryId === '') ? null : moduleData.categoryId,
         moduleData.title,
         moduleData.description || null,
@@ -283,9 +283,9 @@ class Module {
         moduleData.jsonBackupUrl || null,
         moduleData.jsonContentUrl || null,
         jsonFields.content_summary,
-        moduleData.targetClassId || null,
+        (moduleData.targetClassId === '') ? null : moduleData.targetClassId || null,
         jsonFields.target_learning_styles,
-        moduleData.prerequisiteModuleId || null,
+        (moduleData.prerequisiteModuleId === '') ? null : moduleData.prerequisiteModuleId || null,
         moduleData.isPublished || false,
         moduleData.createdBy
       ]
@@ -352,8 +352,12 @@ class Module {
             ? JSON.stringify(updates[camelKey]) 
             : null;
         } else {
-          // Handle category_id specially - set to null if it's a default/invalid value
+          // Handle foreign key fields - set to null if empty string or invalid value
           if (dbKey === 'category_id' && (updates[camelKey] === 'default-category-id' || updates[camelKey] === '')) {
+            updateFields[dbKey] = null;
+          } else if (dbKey === 'target_class_id' && updates[camelKey] === '') {
+            updateFields[dbKey] = null;
+          } else if (dbKey === 'prerequisite_module_id' && updates[camelKey] === '') {
             updateFields[dbKey] = null;
           } else {
             updateFields[dbKey] = updates[camelKey];
@@ -393,8 +397,12 @@ class Module {
             ? JSON.stringify(updates[field]) 
             : null;
         } else {
-          // Handle category_id specially - set to null if it's a default/invalid value
+          // Handle foreign key fields - set to null if empty string or invalid value
           if (field === 'category_id' && (updates[field] === 'default-category-id' || updates[field] === '')) {
+            updateFields[field] = null;
+          } else if (field === 'target_class_id' && updates[field] === '') {
+            updateFields[field] = null;
+          } else if (field === 'prerequisite_module_id' && updates[field] === '') {
             updateFields[field] = null;
           } else {
             updateFields[field] = updates[field];

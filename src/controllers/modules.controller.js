@@ -386,6 +386,162 @@ class ModulesController {
   }
 
   /**
+   * Optimized content fetching with compression and streaming
+   * GET /api/modules/:id/content-optimized
+   * This endpoint provides optimized content delivery for large modules
+   */
+  async getModuleContentOptimized(req, res) {
+    const startTime = Date.now();
+    const { id } = req.params;
+    
+    try {
+      logger.info('🚀 [OPTIMIZED CONTENT] Starting optimized request', {
+        moduleId: id,
+        timestamp: new Date().toISOString(),
+        userAgent: req.get('user-agent')
+      });
+
+      // Step 1: Find module in database
+      const module = await Module.findById(id);
+
+      if (!module) {
+        logger.warn('⚠️ [OPTIMIZED CONTENT] Module not found', { moduleId: id });
+        return res.status(404).json({
+          error: {
+            code: 'MODULE_NOT_FOUND',
+            message: 'Module not found',
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+
+      if (!module.jsonContentUrl) {
+        logger.warn('⚠️ [OPTIMIZED CONTENT] Module has no content URL', {
+          moduleId: id,
+          title: module.title
+        });
+        return res.status(404).json({
+          error: {
+            code: 'CONTENT_NOT_FOUND',
+            message: 'Module content URL not found',
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+
+      logger.info('📥 [OPTIMIZED CONTENT] Fetching with compression', {
+        moduleId: id,
+        url: module.jsonContentUrl
+      });
+
+      // Step 2: Fetch with compression and streaming
+      const https = require('https');
+      const zlib = require('zlib');
+      const url = new URL(module.jsonContentUrl);
+      
+      const options = {
+        hostname: url.hostname,
+        port: url.port || 443,
+        path: url.pathname + url.search,
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json',
+          'Accept-Encoding': 'gzip, deflate, br',
+          'User-Agent': 'BISCAS-Learning-Module-Backend/1.0'
+        }
+      };
+
+      const r2Request = https.request(options, (r2Response) => {
+        if (r2Response.statusCode !== 200) {
+          logger.error('❌ [OPTIMIZED CONTENT] R2 request failed', {
+            moduleId: id,
+            statusCode: r2Response.statusCode,
+            statusMessage: r2Response.statusMessage
+          });
+          return res.status(502).json({
+            error: {
+              code: 'R2_FETCH_FAILED',
+              message: 'Failed to fetch content from storage',
+              timestamp: new Date().toISOString()
+            }
+          });
+        }
+
+        // Set response headers for optimized delivery
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Cache-Control', 'public, max-age=300'); // 5 minutes cache
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        
+        // Enable compression if supported
+        const acceptEncoding = req.headers['accept-encoding'] || '';
+        const contentEncoding = r2Response.headers['content-encoding'];
+        
+        if (acceptEncoding.includes('gzip') && !contentEncoding) {
+          res.setHeader('Content-Encoding', 'gzip');
+          const gzip = zlib.createGzip({ level: 6 }); // Balanced compression
+          r2Response.pipe(gzip).pipe(res);
+        } else {
+          // Direct streaming if already compressed or compression not supported
+          r2Response.pipe(res);
+        }
+
+        // Log completion
+        res.on('finish', () => {
+          const totalDuration = Date.now() - startTime;
+          const contentLength = r2Response.headers['content-length'];
+          logger.info('✅ [OPTIMIZED CONTENT] Content delivered successfully', {
+            moduleId: id,
+            totalDuration: `${totalDuration}ms`,
+            contentLength: contentLength ? `${Math.round(parseInt(contentLength) / 1024 / 1024 * 100) / 100}MB` : 'unknown',
+            compressed: !!contentEncoding || acceptEncoding.includes('gzip')
+          });
+        });
+      });
+
+      r2Request.on('error', (error) => {
+        const totalDuration = Date.now() - startTime;
+        logger.error('❌ [OPTIMIZED CONTENT] R2 request error', {
+          moduleId: id,
+          error: error.message,
+          totalDuration: `${totalDuration}ms`
+        });
+        
+        if (!res.headersSent) {
+          res.status(502).json({
+            error: {
+              code: 'INTERNAL_SERVER_ERROR',
+              message: 'Failed to fetch optimized content',
+              details: error.message,
+              timestamp: new Date().toISOString()
+            }
+          });
+        }
+      });
+
+      r2Request.end();
+      
+    } catch (error) {
+      const totalDuration = Date.now() - startTime;
+      logger.error('❌ [OPTIMIZED CONTENT] Request failed', {
+        moduleId: id,
+        error: error.message,
+        totalDuration: `${totalDuration}ms`
+      });
+      
+      if (!res.headersSent) {
+        res.status(500).json({
+          error: {
+            code: 'INTERNAL_SERVER_ERROR',
+            message: 'Failed to fetch optimized content',
+            details: error.message,
+            timestamp: new Date().toISOString()
+          }
+        });
+      }
+    }
+  }
+
+  /**
    * Create a new module
    * POST /api/modules
    */

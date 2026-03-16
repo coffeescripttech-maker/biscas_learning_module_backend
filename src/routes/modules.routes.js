@@ -86,6 +86,13 @@ router.get('/:id/content', verifyToken, modulesController.getModuleContent);
 router.get('/:id/content-proxy', verifyToken, modulesController.proxyModuleContent);
 
 /**
+ * @route   GET /api/modules/:id/content-optimized
+ * @desc    Optimized content delivery with compression and streaming for large modules
+ * @access  Private (Authenticated users)
+ */
+router.get('/:id/content-optimized', verifyToken, modulesController.getModuleContentOptimized);
+
+/**
  * @route   GET /api/modules/:id
  * @desc    Get module by ID
  * @access  Private (Authenticated users)
