@@ -268,7 +268,7 @@ class Module {
       [
         moduleId,
         // Handle foreign key fields - set to null if empty string or invalid value
-        (moduleData.categoryId === 'default-category-id' || moduleData.categoryId === '') ? null : moduleData.categoryId,
+        (!moduleData.categoryId || moduleData.categoryId === 'default-category-id' || moduleData.categoryId === '' || moduleData.categoryId === 'general-education') ? null : moduleData.categoryId,
         moduleData.title,
         moduleData.description || null,
         jsonFields.learning_objectives,
@@ -398,12 +398,25 @@ class Module {
             : null;
         } else {
           // Handle foreign key fields - set to null if empty string or invalid value
-          if (field === 'category_id' && (updates[field] === 'default-category-id' || updates[field] === '')) {
-            updateFields[field] = null;
-          } else if (field === 'target_class_id' && updates[field] === '') {
-            updateFields[field] = null;
-          } else if (field === 'prerequisite_module_id' && updates[field] === '') {
-            updateFields[field] = null;
+          if (field === 'category_id') {
+            if (!updates[field] || updates[field] === '' || updates[field] === 'default-category-id' || updates[field] === 'general-education') {
+              console.log(`⚠️ Invalid category_id '${updates[field]}', setting to null`);
+              updateFields[field] = null;
+            } else {
+              updateFields[field] = updates[field];
+            }
+          } else if (field === 'target_class_id') {
+            if (!updates[field] || updates[field] === '') {
+              updateFields[field] = null;
+            } else {
+              updateFields[field] = updates[field];
+            }
+          } else if (field === 'prerequisite_module_id') {
+            if (!updates[field] || updates[field] === '') {
+              updateFields[field] = null;
+            } else {
+              updateFields[field] = updates[field];
+            }
           } else {
             updateFields[field] = updates[field];
           }

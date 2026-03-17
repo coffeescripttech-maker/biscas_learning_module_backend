@@ -1,0 +1,807 @@
+{
+  "id": "4cf58b23-32c1-4af5-a881-9dab5f57bcc3",
+  "category_id": "default-category-id",
+  "title": "Lesson 2",
+  "description": "Introduction\n\nHave you ever wondered how babies inherit traits from both their parents? The answer lies in a special kind of cell division called meiosis. In this lesson, you’ll learn how sperm cells in boys and egg cells in girls are made through meiosis. These cells are called gametes, and they carry half the genetic information needed to create a new person. When a sperm and egg join during fertilization, they form a complete set of chromosomes, starting the development of a new human being.\n\nMeiosis doesn’t just help with reproduction, it also makes sure that each child is unique. Through processes like chromosome reduction and genetic recombination, meiosis mixes genes in different ways. This is why siblings can look different from each other even though they have the same parents. By the end of this lesson, you’ll understand how meiosis works, why it’s important, and how it helps create the amazing variety we see in people today.\n\nContent:\nMeiosis and Gamete Formation\nMeiosis is Essential in Sexual Reproduction\n\nContent Standards: \nCells are the basic unit of life and mitosis, and meiosis are the basic forms of cell division.\n\nLearning Competency: \nexplain that genetic information is passed on to offspring from both parents by the process of meiosis and fertilization;\n",
+  "learning_objectives": [
+    "Understand the key concepts",
+    "Apply knowledge to real-world scenarios"
+  ],
+  "content_structure": {
+    "sections": [
+      {
+        "id": "3e7d28f1-41b5-4fb7-9e1e-19774dfd04c7",
+        "title": "Objectivesss",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 1,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Objectives:</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><i><span style=\"vertical-align:baseline;\">At the end of the lessons, the students will be able to:</span></i></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><ol><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;\" data-list-item-id=\"ec5e0895ce3325c652a2250455a335d6d\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Describe how sperm and egg cells are made through meiosis.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;\" data-list-item-id=\"e96b29b6f6e8237fc4630f74d20b05e9a\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Explain why meiosis is important in sexual reproduction.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;\" data-list-item-id=\"e0a1e37f2d33ad8a76f6f9848c0b37a01\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Describe how meiosis creates differences between offspring.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"efa549abdbc3e653096c90fc8f09005c0\" dir=\"ltr\" aria-level=\"1\">&nbsp;</li></ol>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "everyone"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "0a395107-0888-40b5-8929-16ae8f6ea95e",
+        "title": "Pre-Test",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 2,
+        "is_required": true,
+        "content_data": {
+          "questions": [
+            {
+              "id": "0a395107-0888-40b5-8929-16ae8f6ea95e-q-1762240394983",
+              "type": "single_choice",
+              "points": 2,
+              "options": [
+                "A. To reduce chromosome number by half",
+                "B. To produce identical cells",
+                "C. To repair damaged DNA",
+                "D. To increase cell size"
+              ],
+              "question": "What is the main function of meiosis in sexual reproduction?",
+              "correct_answer": "A. To reduce chromosome number by half"
+            },
+            {
+              "id": "0a395107-0888-40b5-8929-16ae8f6ea95e-q-1762240478156",
+              "type": "single_choice",
+              "points": 10,
+              "options": [
+                "A. Prostate gland",
+                "B. Ovaries",
+                "C. Seminal vesicles",
+                "D. Testes"
+              ],
+              "question": "Where does spermatogenesis occur in male animals?",
+              "correct_answer": ""
+            }
+          ],
+          "quiz_data": {
+            "question": "Pre-Test (Let us first check what you already know!)"
+          }
+        },
+        "content_type": "assessment",
+        "learning_style_tags": [
+          "everyone"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "cfa04c41-a08d-46d9-ae91-14aa9dd3e2b1",
+        "title": "Lesson Content - Visual",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 3,
+        "is_required": true,
+        "content_data": {
+          "text": "<figure class=\"media\"><div data-oembed-url=\"https://drive.google.com/file/d/1EMWRxE-aKUfHrs7fXxgRBu5jGh699Ta6/preview\"><div style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://drive.google.com/file/d/1EMWRxE-aKUfHrs7fXxgRBu5jGh699Ta6/preview\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" frameborder=\"0\" allow=\"autoplay\" allowfullscreen=\"\"></iframe></div></div></figure><p>&nbsp;</p><p>Video Introduction: <meta charset=\"utf-8\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis and Gamete Formation</strong></span></span></p>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "visual"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "9f9cacc6-10ad-4599-bc6d-8e519a9159f5",
+        "title": "Lesson Content - Visual",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 4,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Male</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Spermatogenesis&nbsp;</strong>is the biological process through which sperm cells are formed in male animals. This occurs in the testes, the male reproductive organs.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">As illustrated in the figure, A diploid germ cell first enlarges and matures. It then undergoes the first meiotic division (Meiosis I), producing two cells.&nbsp; Each of these cells proceeds through the second meiotic division (Meiosis II), resulting in four haploid cells. These haploid cells transform structurally, developing tails and becoming fully functional sperm cells.</span></span><span style=\"border:none;height:290px;overflow:hidden;width:290px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://oykqgcyniwygrlsbhhvm.supabase.co/storage/v1/object/public/module-backups/module-images/module-08f489fc-8388-4b62-ad2c-750887615799-image-1762253200762-1.png\" width=\"290\" height=\"290\" uploadprocessed=\"true\"></span></p><p>&nbsp;</p><p><meta charset=\"utf-8\"></p><ul style=\"margin-bottom:0;margin-top:0;\"><li style=\"background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ee5ac5bc1f95b0fbb61d3820cc3309758\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">In humans, each sperm cell carries 23 chromosomes—half the number found in typical body (somatic) cells, which have 46. This makes sperm haploid (n), meaning they contain only one complete set of chromosomes.</span></span><span style=\"border:none;height:321px;overflow:hidden;width:513px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://oykqgcyniwygrlsbhhvm.supabase.co/storage/v1/object/public/module-backups/module-images/module-08f489fc-8388-4b62-ad2c-750887615799-image-1762253202954-2.png\" width=\"513\" height=\"321\" uploadprocessed=\"true\"></span></li></ul>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "visual"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "bb757248-fed6-4444-9609-293fad83f2f9",
+        "title": "Lesson Content - Visual",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 5,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Female</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Oogenesis&nbsp;</strong>refers to the formation of egg cells in female animals and takes place in the ovaries.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;Oogenesis, summarized in the figure, a diploid cell begins meiosis and, after Meiosis I, divides its cytoplasm unevenly. One cell retains most of the cytoplasm and continues developing into the egg cell. The smaller cell, called a polar body, typically degenerates and does not participate in fertilization. This process ensures that the resulting egg has sufficient nutrients and cellular components.</span></span></p><p>&nbsp;</p><p><span style=\"border:none;height:261px;overflow:hidden;width:498px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://oykqgcyniwygrlsbhhvm.supabase.co/storage/v1/object/public/module-backups/module-images/module-08f489fc-8388-4b62-ad2c-750887615799-image-1762253204006-1.png\" width=\"498\" height=\"261\" uploadprocessed=\"true\"></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Like sperm, the egg cell is haploid and contains 23 chromosomes, ready to fuse with a sperm cell during fertilization.</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Egg Cell and Sperm Cell</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A human sperm is a small, motile, equipped with a tail for movement.</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A human egg is much larger, nutrient-rich, and stationary. Both cells are mature haploid gametes that are capable of fertilization</span></span><span style=\"border:none;height:217px;overflow:hidden;width:302px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://oykqgcyniwygrlsbhhvm.supabase.co/storage/v1/object/public/module-backups/module-images/module-08f489fc-8388-4b62-ad2c-750887615799-image-1762253204886-2.png\" width=\"302\" height=\"217\" uploadprocessed=\"true\"></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"border:none;height:230px;overflow:hidden;vertical-align:baseline;width:315px;\"><img style=\"margin-left:0px;margin-top:2.482926165436613e-13px;\" src=\"https://oykqgcyniwygrlsbhhvm.supabase.co/storage/v1/object/public/module-backups/module-images/module-08f489fc-8388-4b62-ad2c-750887615799-image-1762253205389-3.png\" width=\"315\" height=\"234.78053232338758\" uploadprocessed=\"true\"></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis is Essential in Sexual Reproduction</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Sexual reproduction relies on the fusion of two gametes—one from each parent.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e2ee1b38f030b22c5f1d5a9556c228fa7\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Each gamete contributes half of the genetic material needed to form a new organism.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e5f672b2f75567fd539d6942a8b61cd70\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">The sperm (from the father) and the egg (from the mother) unite during fertilization to create a zygote with a complete set of chromosomes.</span></span></li></ul><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This genetic mixing ensures diversity in offspring</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Information through Meiosis</strong></span></span></p><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ec9fc67398cc62860ae90c02a8307ece3\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During fertilization, 1 gamete from each parent combines to form a zygote.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ec096b8a5f1019c3a2b6a7caece6b9c14\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Because of recombination and independent assortment in meiosis, each gamete contains a different set of DNA. This produces a unique combination of genes in the resulting zygote.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e583ee5b795725222142983b38382e75e\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Recombination in crossing over occurs during prophase I. Homologous chromosomes – 1 inherited from each parent – pair along their lengths, gene by gene.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e753cc89b01466322c378d7ce4399a224\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Breaks occur along the chromosomes, and they rejoin, trading some of their genes. The chromosomes now have genes in a unique combination.</span></span></li></ul><p>&nbsp;</p>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "visual"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "bb6e20d4-23dd-4d71-9636-04a782e598a0",
+        "title": "Lesson Content - Visual",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 6,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Phases of meiosis</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:12pt;margin-top:12pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During meiosis, a single diploid cell experiences two successive rounds of cell division, yet its DNA is replicated only once. This process ultimately produces four genetically distinct haploid cells, each referred to as a gamete.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>The Importance of Meiosis in Sexual Reproduction</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Diversity&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis plays a vital role in generating genetic variation among offspring. As chromosomes are randomly assorted and separated during this process, each gamete ends up with a unique combination of genetic material.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"eed348c44cfe86a25afbba97759edbe0a\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This variation is key to producing offspring that are genetically distinct from their parents and siblings.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e73136f3e1f385ac18ce56ad449e9991a\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Such diversity enhances a population’s ability to adapt to changing environments and overcome challenges.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"eec7433c737f771bc392c64decd4259b9\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Unlike asexual reproduction, which creates identical clones, sexual reproduction—powered by meiosis—ensures individuality in every generation.</span></span></li></ul><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Chromosome Reduction&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis cuts the chromosome number in half, converting a diploid cell (2n) into haploid gametes (n). This reduction is essential for sexual reproduction because when two haploid cells—one from each parent—join during fertilization, they reestablish the full diploid chromosome set in the newly formed zygote.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Without meiosis, the chromosome number would double with each generation, which would be unsustainable..</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Recombination&nbsp;</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Genetic recombination occurs during meiosis, allowing homologous chromosomes to swap segments of DNA. This process enhances genetic variation by forming new allele combinations, ensuring that each offspring receives a distinct set of inherited traits from their parents.</span></span></p><p>&nbsp;</p><p><span style=\"border:none;height:295px;overflow:hidden;width:336px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://oykqgcyniwygrlsbhhvm.supabase.co/storage/v1/object/public/module-backups/module-images/module-08f489fc-8388-4b62-ad2c-750887615799-image-1762253206126-1.png\" width=\"336\" height=\"295\" uploadprocessed=\"true\"></span><br><br><br>&nbsp;</p>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "visual"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "f2663945-7ead-441c-b1e9-ffa8b969d179",
+        "title": "Lesson Content - Auditory",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 7,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Let’s Start Discovering!</span></span></p><figure class=\"media\"><div data-oembed-url=\"https://drive.google.com/file/d/1FMIfVGTO4vgt4_WKEuwmI1RhLML6sf7e/preview\"><div style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://drive.google.com/file/d/1FMIfVGTO4vgt4_WKEuwmI1RhLML6sf7e/preview\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" frameborder=\"0\" allow=\"autoplay\" allowfullscreen=\"\"></iframe></div></div></figure><p><meta charset=\"utf-8\"></p><p>&nbsp;</p><p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:12pt;margin-top:12pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Lesson Proper</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis and Gamete Formation</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Male</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Spermatogenesis&nbsp;</strong>is the biological process through which sperm cells are formed in male animals. This occurs in the testes, the male reproductive organs.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">As illustrated in the figure, A diploid germ cell first enlarges and matures. It then undergoes the first meiotic division (Meiosis I), producing two cells.&nbsp; Each of these cells proceeds through the second meiotic division (Meiosis II), resulting in four haploid cells. These haploid cells transform structurally, developing tails and becoming fully functional sperm cells.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e653500a07d6560962289eabaa53c4af6\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">In humans, each sperm cell carries 23 chromosomes—half the number found in typical body (somatic) cells, which have 46. This makes sperm haploid (n), meaning they contain only one complete set of chromosomes.</span></span></li></ul><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "9b11981e-c898-4d4f-b457-faec522b54e9",
+        "title": "Lesson Content - Auditory",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 8,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Oogenesis&nbsp;</strong>refers to the formation of egg cells in female animals and takes place in the ovaries.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Oogenesis, summarized in the figure, a diploid cell begins meiosis and, after Meiosis I, divides its cytoplasm unevenly. One cell retains most of the cytoplasm and continues developing into the egg cell. The smaller cell, called a polar body, typically degenerates and does not participate in fertilization. This process ensures that the resulting egg has sufficient nutrients and cellular components.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Like sperm, the egg cell is haploid and contains 23 chromosomes, ready to fuse with a sperm cell during fertilization.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Egg Cell and Sperm Cell</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A human sperm is a small, motile, equipped with a tail for movement.</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A human egg is much larger, nutrient-rich, and stationary. Both cells are mature haploid gametes that are capable of fertilization</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis is Essential in Sexual Reproduction</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Sexual reproduction relies on the fusion of two gametes—one from each parent.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e5a3c904791b4a4a3b8ddda1f4f017ef7\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Each gamete contributes half of the genetic material needed to form a new organism.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e3306b0b9af3c3c9622f766083ee3d48f\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">The sperm (from the father) and the egg (from the mother) unite during fertilization to create a zygote with a complete set of chromosomes.</span></span></li></ul><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This genetic mixing ensures diversity in offspring</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Information through Meiosis</strong></span></span></p><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e4f635f6354da60104c71541830e7cd60\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During fertilization, 1 gamete from each parent combines to form a zygote.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ecab98724b2c48da19b7588d36c23caeb\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Because of recombination and independent assortment in meiosis, each gamete contains a different set of DNA. This produces a unique combination of genes in the resulting zygote.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e247b9c6abd1108879c78d98aef35dfed\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Recombination in crossing over occurs during prophase I. Homologous chromosomes – 1 inherited from each parent – pair along their lengths, gene by gene.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"eb7ae159aafcd29baae83ee3f59babd89\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Breaks occur along the chromosomes, and they rejoin, trading some of their genes. The chromosomes now have genes in a unique combination.</span></span></li></ul><p>&nbsp;</p>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "9922deff-5815-4567-84d2-b2d7dc7971cc",
+        "title": "Lesson Content - Auditory",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 9,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Phases of meiosis</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During meiosis, a single diploid cell experiences two successive rounds of cell division, yet its DNA is replicated only once. This process ultimately produces four genetically distinct haploid cells, each referred to as a gamete.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>The Importance of Meiosis in Sexual Reproduction</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Diversity&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis plays a vital role in generating genetic variation among offspring. As chromosomes are randomly assorted and separated during this process, each gamete ends up with a unique combination of genetic material.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"efc2d14ab4455a00c1cd12e3acd8e37ed\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This variation is key to producing offspring that are genetically distinct from their parents and siblings.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"eecb1882b2ccadbfa46e4e70bbf4c3109\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Such diversity enhances a population’s ability to adapt to changing environments and overcome challenges.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ec0c2bfa74aa013a39868485888ef0fcc\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Unlike asexual reproduction, which creates identical clones, sexual reproduction—powered by meiosis—ensures individuality in every generation.</span></span></li></ul><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Chromosome Reduction&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis cuts the chromosome number in half, converting a diploid cell (2n) into haploid gametes (n). This reduction is essential for sexual reproduction because when two haploid cells—one from each parent—join during fertilization, they reestablish the full diploid chromosome set in the newly formed zygote.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Without meiosis, the chromosome number would double with each generation, which would be unsustainable..</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Recombination&nbsp;</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Genetic recombination occurs during meiosis, allowing homologous chromosomes to swap segments of DNA. This process enhances genetic variation by forming new allele combinations, ensuring that each offspring receives a distinct set of inherited traits from their parents.</span></span></p>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "7f49ff79-dae7-442f-83e9-bb0468ef3110",
+        "title": "Lesson Content - Reading",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 10,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:12pt;margin-top:12pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Lesson Proper</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis and Gamete Formation</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Male</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Spermatogenesis&nbsp;</strong>is the biological process through which sperm cells are formed in male animals. This occurs in the testes, the male reproductive organs.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Process:</strong></span></span></p><p style=\"margin-bottom:0pt;margin-left:31.5pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- A diploid germ cell (2n = 46 chromosomes) enlarges and matures.</span></span></p><p style=\"margin-bottom:0pt;margin-left:31.5pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- It undergoes Meiosis I → produces two haploid cells.</span></span></p><p style=\"margin-bottom:0pt;margin-left:31.5pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- Each of these undergoes Meiosis II → results in four haploid cells.</span></span></p><p style=\"margin-bottom:0pt;margin-left:31.5pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- These cells develop tails and become mature sperm cells.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Key Features:</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- Each sperm has 23 chromosomes (haploid, n).</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- Sperm are small, motile, and designed for movement.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e329ee2245a3f196a82d76f3d1b907122\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">In humans, each sperm cell carries 23 chromosomes—half the number found in typical body (somatic) cells, which have 46. This makes sperm haploid (n), meaning they contain only one complete set of chromosomes.</span></span></li></ul><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Female</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Oogenesis&nbsp;</strong>refers to the formation of egg cells in female animals and takes place in the ovaries.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Process:</span></span></p><ol style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"ed3e88781f23e34d705eec17c2724cbfa\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A diploid cell (2n = 46) begins meiosis. After&nbsp;<strong>Meiosis I</strong>, the cytoplasm divides&nbsp;<strong>unevenly</strong>:</span></span></li></ol><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;margin-left:54pt;vertical-align:baseline;\" data-list-item-id=\"e4c368f2fbe5489f0d95fdb65b089d572\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">One large cell becomes the&nbsp;<strong>secondary oocyte</strong>.</span></span></li></ul><p style=\"margin-bottom:12pt;margin-left:72pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">-&nbsp; One small cell becomes a&nbsp;<strong>polar body</strong> (usually degenerates).</span></span></p><ol style=\"margin-bottom:0;margin-top:0;\" start=\"2\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"ea63e145735916beef7b29c8905731a56\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">After&nbsp;<strong>Meiosis II</strong>, another polar body may form.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"e2a3d245a5be828dcae44026b177fe23b\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">The large cell matures into a&nbsp;<strong>haploid egg cell</strong>.</span></span></li></ol><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Key Features of Egg Cells:</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e7d433242c9d084507a16f0fcb290b833\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Haploid (n = 23 chromosomes).</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ebe8eded6970a75d6c64e2f5b75d7b390\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Large and nutrient-rich.</span></span></li></ul>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "reading_writing"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "f718381b-87cd-47b2-a8ba-f98164df9081",
+        "title": "Lesson Content - Reading",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 11,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Like sperm, the egg cell is haploid and contains 23 chromosomes, ready to fuse with a sperm cell during fertilization.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Egg Cell and Sperm Cell</strong></span></span></p><p>&nbsp;</p><div style=\"margin-left:58.5pt;\" dir=\"ltr\" align=\"left\"><figure class=\"table\"><table style=\"border-collapse:collapse;border:none;\"><tbody><tr style=\"height:0pt;\"><td style=\"background-color:#f9cb9c;overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Feature&nbsp;</strong></span></span></p></td><td style=\"background-color:#f9cb9c;overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Sperm Cell</strong></span></span></p></td><td style=\"background-color:#f9cb9c;overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Egg Cell</strong></span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Size</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Small</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Large</span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Movement</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Motile (has a tail)</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Stationary</span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Quantity</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">4 per meiosis</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">1 per meiosis</span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Nutrients</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Minimal</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Rich in nutrients</span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Chromosomes</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">23 (haploid)</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">23 (haploid)</span></span></p></td></tr></tbody></table></figure></div><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis is Essential in Sexual Reproduction</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Sexual reproduction relies on the fusion of two gametes—one from each parent.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ee6b58a1d1f167f3825c5f64d2a1da39b\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Each gamete contributes half of the genetic material needed to form a new organism.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e81874862f24c1c692cf2cd658a74af07\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">The sperm (from the father) and the egg (from the mother) unite during fertilization to create a zygote with a complete set of chromosomes.</span></span></li></ul><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This genetic mixing ensures diversity in offspring</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Information through Meiosis</strong></span></span></p><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e9db9c077143ce7fb07a4a1ec182c0129\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During fertilization, 1 gamete from each parent combines to form a zygote.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e164446ca1bada0d2d5dac3b0a8b34a63\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Because of recombination and independent assortment in meiosis, each gamete contains a different set of DNA. This produces a unique combination of genes in the resulting zygote.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e7ea0cfcc4fd0aa91b8ee05e8e3c58bdf\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Recombination in crossing over occurs during prophase I. Homologous chromosomes – 1 inherited from each parent – pair along their lengths, gene by gene.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ee329e142a41077959c53368bdec42630\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Breaks occur along the chromosomes, and they rejoin, trading some of their genes. The chromosomes now have genes in a unique combination.</span></span></li></ul><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Phases of meiosis</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During meiosis, a single diploid cell experiences two successive rounds of cell division, yet its DNA is replicated only once. This process ultimately produces four genetically distinct haploid cells, each referred to as a gamete.</span></span></p>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "reading_writing"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "66493b1a-b7eb-4c52-a6dd-3f2d14e6d2d2",
+        "title": "Lesson Content - Reading",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 12,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>The Importance of Meiosis in Sexual Reproduction</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Diversity&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis plays a vital role in generating genetic variation among offspring. As chromosomes are randomly assorted and separated during this process, each gamete ends up with a unique combination of genetic material.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e657e38b20cebca4d38560b85407cf3dd\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This variation is key to producing offspring that are genetically distinct from their parents and siblings.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e864ddfc34b26ceb27a57bc992e052225\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Such diversity enhances a population’s ability to adapt to changing environments and overcome challenges.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e3c42d7eedd356d0344a86ca53a2f6ce4\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Unlike asexual reproduction, which creates identical clones, sexual reproduction—powered by meiosis—ensures individuality in every generation.</span></span></li></ul><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Chromosome Reduction&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis cuts the chromosome number in half, converting a diploid cell (2n) into haploid gametes (n). This reduction is essential for sexual reproduction because when two haploid cells—one from each parent—join during fertilization, they reestablish the full diploid chromosome set in the newly formed zygote.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Without meiosis, the chromosome number would double with each generation, which would be unsustainable..</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Recombination&nbsp;</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Genetic recombination occurs during meiosis, allowing homologous chromosomes to swap segments of DNA. This process enhances genetic variation by forming new allele combinations, ensuring that each offspring receives a distinct set of inherited traits from their parents.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Quick Write:</strong></span></span></p><p><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Prompt:</strong></span></span><br><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>&nbsp;</strong>List three ways meiosis contributes to genetic variation.</span></span><br><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span><i><span style=\"vertical-align:baseline;\">Use bullet points or short sentences.</span></i></span></p>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "reading_writing"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "55c48203-0051-4e78-aa9d-f1452df76fc0",
+        "title": "Lesson Content - Kinesthetic",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 13,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:12pt;margin-top:12pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Lesson Proper</strong></span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis and Gamete Formation</strong></span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Male</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Spermatogenesis&nbsp;</strong>is the biological process through which sperm cells are formed in male animals. This occurs in the testes, the male reproductive organs.</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A diploid germ cell first enlarges and matures. It then undergoes the first meiotic division (Meiosis I), producing two cells.&nbsp; Each of these cells proceeds through the second meiotic division (Meiosis II), resulting in four haploid cells. These haploid cells transform structurally, developing tails and becoming fully functional sperm cells.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e4b6b9de3ecdea2bfc45ddf0f8d1e745c\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">In humans, each sperm cell carries 23 chromosomes—half the number found in typical body (somatic) cells, which have 46. This makes sperm haploid (n), meaning they contain only one complete set of chromosomes.</span></span></li></ul><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Female&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Oogenesis&nbsp;</strong>refers to the formation of egg cells in female animals and takes place in the ovaries.</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Oogenesis, a diploid cell begins meiosis and, after Meiosis I, divides its cytoplasm unevenly. One cell retains most of the cytoplasm and continues developing into the egg cell. The smaller cell, called a polar body, typically degenerates and does not participate in fertilization. This process ensures that the resulting egg has sufficient nutrients and cellular components.</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Like sperm, the egg cell is haploid and contains 23 chromosomes, ready to fuse with a sperm cell during fertilization.</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Egg Cell and Sperm Cell</strong></span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A human sperm is a small, motile, equipped with a tail for movement.</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A human egg is much larger, nutrient-rich, and stationary. Both cells are mature haploid gametes that are capable of fertilization</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis is Essential in Sexual Reproduction</strong></span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Sexual reproduction relies on the fusion of two gametes—one from each parent.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e17ac68587f2a74b27b795ff1e36e621b\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Each gamete contributes half of the genetic material needed to form a new organism.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ea822e4a1dd636b02bea59f48187500ce\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">The sperm (from the father) and the egg (from the mother) unite during fertilization to create a zygote with a complete set of chromosomes.</span></span></li></ul>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "kinesthetic"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "223e70db-2ae6-47e1-8c83-617117f72c76",
+        "title": "Lesson Content - Kinesthetic",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 14,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:12pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This genetic mixing ensures diversity in offspring</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Information through Meiosis</strong></span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ea40b0e73d7c23fce3c1817615dd66997\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During fertilization, 1 gamete from each parent combines to form a zygote.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e7a536a9e0bca76753209f65f2ee363db\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Because of recombination and independent assortment in meiosis, each gamete contains a different set of DNA. This produces a unique combination of genes in the resulting zygote.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ee822f1eacd25e6dba530aeb5b833fc98\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Recombination in crossing over occurs during prophase I. Homologous chromosomes – 1 inherited from each parent – pair along their lengths, gene by gene.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ea460d5262a93242c8a961a7b6440c8df\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Breaks occur along the chromosomes, and they rejoin, trading some of their genes. The chromosomes now have genes in a unique combination.</span></span></li></ul><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Phases of meiosis</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During meiosis, a single diploid cell experiences two successive rounds of cell division, yet its DNA is replicated only once. This process ultimately produces four genetically distinct haploid cells, each referred to as a gamete.</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>The Importance of Meiosis in Sexual Reproduction</strong></span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Diversity&nbsp;</strong></span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis plays a vital role in generating genetic variation among offspring. As chromosomes are randomly assorted and separated during this process, each gamete ends up with a unique combination of genetic material.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"efbd647a1461a9e2ec6f6e9fd51a5c1a5\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This variation is key to producing offspring that are genetically distinct from their parents and siblings.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e1a3939dfb4a30fdc9efae31d8b19351f\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Such diversity enhances a population’s ability to adapt to changing environments and overcome challenges.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e80501a551b41c1bdbcf7dab156d95055\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Unlike asexual reproduction, which creates identical clones, sexual reproduction—powered by meiosis—ensures individuality in every generation.</span></span></li></ul><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Chromosome Reduction&nbsp;</strong></span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis cuts the chromosome number in half, converting a diploid cell (2n) into haploid gametes (n). This reduction is essential for sexual reproduction because when two haploid cells—one from each parent—join during fertilization, they reestablish the full diploid chromosome set in the newly formed zygote.</span></span></p>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "kinesthetic"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "aa46b2f4-8ea1-4b51-ad11-ff03e2c925fd",
+        "title": "Lesson Content - Kinesthetic",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 15,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Without meiosis, the chromosome number would double with each generation, which would be unsustainable.</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Recombination&nbsp;</strong></span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Genetic recombination occurs during meiosis, allowing homologous chromosomes to swap segments of DNA. This process enhances genetic variation by forming new allele combinations, ensuring that each offspring receives a distinct set of inherited traits from their parents.</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">&nbsp;</span></span></p>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "kinesthetic"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "f14d06f7-05e7-4c6c-8bde-1c9f40f4e46e",
+        "title": "Lesson Content - Kinesthetic",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 16,
+        "is_required": true,
+        "content_data": {
+          "activity_data": {
+            "type": "experiment",
+            "title": "Kinesthetic Learning Extension – Modeling Meiosis ",
+            "materials": [
+              "2 small cups labeled “Parent Cell”",
+              "4 small cups labeled “Gametes”",
+              "46 small paper strips or beads (can be cut from scrap paper or colored pape",
+              "Label half with “M” (maternal) and half with “P” (paternal)",
+              "Number each from 1 to 23 (e.g., M1–M23 and P1–P23",
+              ""
+            ],
+            "process_questions": [
+              "How many chromosomes did each gamete end up with?",
+              "Why is it important that gametes only have 23 chromosomes?",
+              "What would happen if gametes had 46 chromosomes instead?",
+              ""
+            ],
+            "detailed_instructions": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Step 1: Setup – Diploid Parent Cell</span></span></p><ol style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"e6646078d6a73a28d0789aab3e94095df\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Place all 46 chromosome strips (23 maternal + 23 paternal) into the two “Parent Cell” cups.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"e47614c16da55486cf8eeea57b3cc090a\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">These represent the full diploid set of chromosomes (2n = 46).</span></span></li></ol><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Step 2: Meiosis I – Separate Homologous Chromosomes</span></span></p><ol style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"eaa60cccb46917671032bf4428a6b1baf\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Randomly select one chromosome from each pair (e.g., either M1 or P1) and place it into one of the “Gamete” cups.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"ece97ef0288df2f2b828ad211cca33fbc\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Repeat until each gamete cup has 23 chromosomes.</span></span></li></ol><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Step 3: Meiosis II – Simulate Chromatid Separation</span></span></p><ol style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"e6f0e086a06dae6825f1060eb25c09ca3\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Since each strip represents a chromosome, imagine each has two chromatids.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"e9912a62327cbd3f72cfaebcaaf966506\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Leave the strips as-is but explain that each gamete now contains one chromatid from each original chromosome.</span></span></li></ol><p style=\"margin-bottom:12pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Step 4: Review and Reflect</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"edb06952c6b2b0b1dd32e4573c9c76c00\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Each gamete cup now contains a unique mix of chromosomes.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e3b3b14fea52f9264d9f0dc4149cf10cb\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Discuss how this random assortment creates genetic diversity.</span></span></li></ul>"
+          }
+        },
+        "content_type": "activity",
+        "learning_style_tags": [
+          "kinesthetic"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "073a24ee-420b-4eb7-88fc-3b9b4e6e963a",
+        "title": "Lesson Content - VA",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 17,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Let’s Start Discovering!</strong></span></span></p><figure class=\"media\"><div data-oembed-url=\"https://drive.google.com/file/d/1EMWRxE-aKUfHrs7fXxgRBu5jGh699Ta6/preview\"><div style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://drive.google.com/file/d/1EMWRxE-aKUfHrs7fXxgRBu5jGh699Ta6/preview\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" frameborder=\"0\" allow=\"autoplay\" allowfullscreen=\"\"></iframe></div></div></figure><p><meta charset=\"utf-8\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Tap to play:</strong></span></span></p><figure class=\"media\"><div data-oembed-url=\"https://drive.google.com/file/d/1FMIfVGTO4vgt4_WKEuwmI1RhLML6sf7e/preview\"><div style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://drive.google.com/file/d/1FMIfVGTO4vgt4_WKEuwmI1RhLML6sf7e/preview\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" frameborder=\"0\" allow=\"autoplay\" allowfullscreen=\"\"></iframe></div></div></figure><p>&nbsp;</p><p>&nbsp;</p>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "visual",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "3429fd4a-b9cf-4b65-bfa0-178d18aa3f5d",
+        "title": "Lesson Content - VA",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 18,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis and Gamete Formation</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Male</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Spermatogenesis&nbsp;</strong>is the biological process through which sperm cells are formed in male animals. This occurs in the testes, the male reproductive organs.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">As illustrated in the figure, A diploid germ cell first enlarges and matures. It then undergoes the first meiotic division (Meiosis I), producing two cells.&nbsp; Each of these cells proceeds through the second meiotic division (Meiosis II), resulting in four haploid cells. These haploid cells transform structurally, developing tails and becoming fully functional sperm cells.</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><meta charset=\"utf-8\"><span style=\"border:none;height:321px;overflow:hidden;width:513px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://skhgelcmvbwkgzzkbawu.supabase.co/storage/v1/object/public/module-images/module-images/module-4cf58b23-32c1-4af5-a881-9dab5f57bcc3-image-1768341621993-1.png\" width=\"513\" height=\"321\" uploadprocessed=\"true\"></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><meta charset=\"utf-8\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">In humans, each sperm cell carries 23 chromosomes—half the number found in typical body (somatic) cells, which have 46. This makes sperm haploid (n), meaning they contain only one complete set of chromosomes.</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><meta charset=\"utf-8\"><span style=\"border:none;height:321px;overflow:hidden;width:513px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://skhgelcmvbwkgzzkbawu.supabase.co/storage/v1/object/public/module-images/module-images/module-4cf58b23-32c1-4af5-a881-9dab5f57bcc3-image-1768341624198-2.png\" width=\"513\" height=\"321\" uploadprocessed=\"true\"></span></p>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "visual",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "8136147d-ed71-4a56-9f20-21024d341af8",
+        "title": "Lesson Content - VA",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 19,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis and Gamete Formation</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Male</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Spermatogenesis&nbsp;</strong>is the biological process through which sperm cells are formed in male animals. This occurs in the testes, the male reproductive organs.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">As illustrated in the figure, A diploid germ cell first enlarges and matures. It then undergoes the first meiotic division (Meiosis I), producing two cells.&nbsp; Each of these cells proceeds through the second meiotic division (Meiosis II), resulting in four haploid cells. These haploid cells transform structurally, developing tails and becoming fully functional sperm cells.</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><meta charset=\"utf-8\"><span style=\"border:none;height:321px;overflow:hidden;width:513px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://skhgelcmvbwkgzzkbawu.supabase.co/storage/v1/object/public/module-images/module-images/module-4cf58b23-32c1-4af5-a881-9dab5f57bcc3-image-1768341625898-1.png\" width=\"513\" height=\"321\" uploadprocessed=\"true\"></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><meta charset=\"utf-8\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">In humans, each sperm cell carries 23 chromosomes—half the number found in typical body (somatic) cells, which have 46. This makes sperm haploid (n), meaning they contain only one complete set of chromosomes.</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\">&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><meta charset=\"utf-8\"><span style=\"border:none;height:321px;overflow:hidden;width:513px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://skhgelcmvbwkgzzkbawu.supabase.co/storage/v1/object/public/module-images/module-images/module-4cf58b23-32c1-4af5-a881-9dab5f57bcc3-image-1768341627948-2.png\" width=\"513\" height=\"321\" uploadprocessed=\"true\"></span></p>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "visual",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "0fd662c2-6cb2-4a0d-8614-34b793e0c340",
+        "title": "Lesson Content - VA",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 20,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><meta charset=\"utf-8\"></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Phases of meiosis</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:12pt;margin-top:12pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During meiosis, a single diploid cell experiences two successive rounds of cell division, yet its DNA is replicated only once. This process ultimately produces four genetically distinct haploid cells, each referred to as a gamete.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>The Importance of Meiosis in Sexual Reproduction</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Diversity&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis plays a vital role in generating genetic variation among offspring. As chromosomes are randomly assorted and separated during this process, each gamete ends up with a unique combination of genetic material.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e7842a142086c8e9cdcca4cecf06fa7e7\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This variation is key to producing offspring that are genetically distinct from their parents and siblings.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e7548543e78393c379e7b82860c6f955f\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Such diversity enhances a population’s ability to adapt to changing environments and overcome challenges.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e39db5bd296dfbef6a0cfb032811d15b5\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Unlike asexual reproduction, which creates identical clones, sexual reproduction—powered by meiosis—ensures individuality in every generation.</span></span></li></ul><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Chromosome Reduction&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis cuts the chromosome number in half, converting a diploid cell (2n) into haploid gametes (n). This reduction is essential for sexual reproduction because when two haploid cells—one from each parent—join during fertilization, they reestablish the full diploid chromosome set in the newly formed zygote.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Without meiosis, the chromosome number would double with each generation, which would be unsustainable..</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Recombination&nbsp;</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Genetic recombination occurs during meiosis, allowing homologous chromosomes to swap segments of DNA. This process enhances genetic variation by forming new allele combinations, ensuring that each offspring receives a distinct set of inherited traits from their parents.</span></span></p><p>&nbsp;</p><p><span style=\"border:none;height:295px;overflow:hidden;width:336px;\"><img style=\"margin-left:0px;margin-top:0px;\" src=\"https://skhgelcmvbwkgzzkbawu.supabase.co/storage/v1/object/public/module-images/module-images/module-4cf58b23-32c1-4af5-a881-9dab5f57bcc3-image-1768341632353-1.png\" width=\"336\" height=\"295\" uploadprocessed=\"true\"></span><br><br><br>&nbsp;</p>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "visual",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "2bcb32e7-00fd-49e8-9ab9-c613449aabde",
+        "title": "Lesson Content - AR",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 21,
+        "is_required": true,
+        "content_data": {
+          "text": "<p><meta charset=\"utf-8\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Let’s Start Discovering!</span></span></p><figure class=\"media\"><div data-oembed-url=\"https://drive.google.com/file/d/1FMIfVGTO4vgt4_WKEuwmI1RhLML6sf7e/preview\"><div style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;\"><iframe src=\"https://drive.google.com/file/d/1FMIfVGTO4vgt4_WKEuwmI1RhLML6sf7e/preview\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" frameborder=\"0\" allow=\"autoplay\" allowfullscreen=\"\"></iframe></div></div></figure>"
+        },
+        "content_type": "text",
+        "learning_style_tags": [
+          "reading_writing",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "075462fd-8576-45b9-a0d0-01dd25d64420",
+        "title": "Lesson Content - AR",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 22,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><meta charset=\"utf-8\"></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis and Gamete Formation</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Male</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Spermatogenesis&nbsp;</strong>is the biological process through which sperm cells are formed in male animals. This occurs in the testes, the male reproductive organs.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Process:</strong></span></span></p><p style=\"margin-bottom:0pt;margin-left:31.5pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- A diploid germ cell (2n = 46 chromosomes) enlarges and matures.</span></span></p><p style=\"margin-bottom:0pt;margin-left:31.5pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- It undergoes Meiosis I → produces two haploid cells.</span></span></p><p style=\"margin-bottom:0pt;margin-left:31.5pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- Each of these undergoes Meiosis II → results in four haploid cells.</span></span></p><p style=\"margin-bottom:0pt;margin-left:31.5pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- These cells develop tails and become mature sperm cells.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Key Features:</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- Each sperm has 23 chromosomes (haploid, n).</span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">- Sperm are small, motile, and designed for movement.</span></span></p><p>&nbsp;</p><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e1ce4d6d0243ef9f1ec3f619545a51349\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">In humans, each sperm cell carries 23 chromosomes—half the number found in typical body (somatic) cells, which have 46. This makes sperm haploid (n), meaning they contain only one complete set of chromosomes.</span></span></li></ul><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis in Female</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Oogenesis&nbsp;</strong>refers to the formation of egg cells in female animals and takes place in the ovaries.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Process:</span></span></p><ol style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"efe45ca71bc0eff54bc40bd5a8337a78d\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">A diploid cell (2n = 46) begins meiosis. After&nbsp;<strong>Meiosis I</strong>, the cytoplasm divides&nbsp;<strong>unevenly</strong>:</span></span></li></ol><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;margin-left:54pt;vertical-align:baseline;\" data-list-item-id=\"e301feae8b67e736f58d855fee6c0ddf3\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">One large cell becomes the&nbsp;<strong>secondary oocyte</strong>.</span></span></li></ul><p style=\"margin-bottom:12pt;margin-left:72pt;margin-top:12pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">-&nbsp; One small cell becomes a&nbsp;<strong>polar body</strong> (usually degenerates).</span></span></p><ol style=\"margin-bottom:0;margin-top:0;\" start=\"2\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"ed20b67ffa530615e87f4afd4fe9af1e9\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">After&nbsp;<strong>Meiosis II</strong>, another polar body may form.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:decimal;vertical-align:baseline;\" data-list-item-id=\"e3d4b2570767655744e6d7efce8154815\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">The large cell matures into a&nbsp;<strong>haploid egg cell</strong>.</span></span></li></ol><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Key Features of Egg Cells:</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e6565a7b0f7da0b976119f6072bc615c5\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Haploid (n = 23 chromosomes).</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ed431fa60d6d1fc77795081056b5b80a7\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Large and nutrient-rich.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e2ec47f1077c7c0f9c8d475e8badf2a8f\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Stationary, waiting for fertilization.</span></span></li></ul>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "reading_writing",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "273f3fcb-2c54-4181-8c47-6d4fc0626ece",
+        "title": "Lesson Content - AR",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 23,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><meta charset=\"utf-8\"></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Like sperm, the egg cell is haploid and contains 23 chromosomes, ready to fuse with a sperm cell during fertilization.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Egg Cell and Sperm Cell</strong></span></span></p><p>&nbsp;</p><div style=\"margin-left:58.5pt;\" dir=\"ltr\" align=\"left\"><figure class=\"table\"><table style=\"border-collapse:collapse;border:none;\"><tbody><tr style=\"height:0pt;\"><td style=\"background-color:#f9cb9c;overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Feature&nbsp;</strong></span></span></p></td><td style=\"background-color:#f9cb9c;overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Sperm Cell</strong></span></span></p></td><td style=\"background-color:#f9cb9c;overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Egg Cell</strong></span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Size</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Small</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Large</span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Movement</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Motile (has a tail)</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Stationary</span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Quantity</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">4 per meiosis</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">1 per meiosis</span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Nutrients</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Minimal</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Rich in nutrients</span></span></p></td></tr><tr style=\"height:0pt;\"><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Chromosomes</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">23 (haploid)</span></span></p></td><td style=\"overflow:hidden;padding:5pt 5pt 5pt 5pt;vertical-align:top;\"><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:center;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">23 (haploid)</span></span></p></td></tr></tbody></table></figure></div><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Meiosis is Essential in Sexual Reproduction</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Sexual reproduction relies on the fusion of two gametes—one from each parent.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ef18f4fbd481345274bca29b10ebfaf7f\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Each gamete contributes half of the genetic material needed to form a new organism.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e0a8c78d8691c679db2e7f13d302c23d1\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">The sperm (from the father) and the egg (from the mother) unite during fertilization to create a zygote with a complete set of chromosomes.</span></span></li></ul><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This genetic mixing ensures diversity in offspring</span></span></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Information through Meiosis</strong></span></span></p><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e4808ab7d5cb213ef094847163c0306d0\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During fertilization, 1 gamete from each parent combines to form a zygote.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ecb9d4323db5e78e563f96f05a74e960a\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Because of recombination and independent assortment in meiosis, each gamete contains a different set of DNA. This produces a unique combination of genes in the resulting zygote.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"eab7c1795dca65ddf424bc0915d264bbd\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Recombination in crossing over occurs during prophase I. Homologous chromosomes – 1 inherited from each parent – pair along their lengths, gene by gene.</span></span></li></ul><p>&nbsp;</p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ec6657b02bfc6d6c2a99f414714d63fc7\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Breaks occur along the chromosomes, and they rejoin, trading some of their genes. The chromosomes now have genes in a unique combination.</span></span></li></ul><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Phases of meiosis</span></span></p><p style=\"margin-bottom:12pt;margin-top:12pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">During meiosis, a single diploid cell experiences two successive rounds of cell division, yet its DNA is replicated only once. This process ultimately produces four genetically distinct haploid cells, each referred to as a gamete.</span></span></p>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "reading_writing",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "ac4cc4bb-23ed-489d-aeb5-5987df394bf2",
+        "title": "Lesson Content - AR",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 24,
+        "is_required": true,
+        "content_data": {
+          "read_aloud_data": {
+            "title": "",
+            "content": "<p><meta charset=\"utf-8\"></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>The Importance of Meiosis in Sexual Reproduction</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Diversity&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis plays a vital role in generating genetic variation among offspring. As chromosomes are randomly assorted and separated during this process, each gamete ends up with a unique combination of genetic material.</span></span></p><ul style=\"margin-bottom:0;margin-top:0;\"><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"ed86d73b5b34b5c47841413a98cb157ee\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">This variation is key to producing offspring that are genetically distinct from their parents and siblings.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e10c3ed72af955d8086d9979c9ccfccf6\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Such diversity enhances a population’s ability to adapt to changing environments and overcome challenges.</span></span></li><li class=\"ck-list-marker-color\" style=\"--ck-content-list-marker-color:#000000;background-color:transparent;color:#000000;list-style-type:disc;vertical-align:baseline;\" data-list-item-id=\"e083072362fedf096bb45c7760657dd2b\" dir=\"ltr\" aria-level=\"1\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Unlike asexual reproduction, which creates identical clones, sexual reproduction—powered by meiosis—ensures individuality in every generation.</span></span></li></ul><p>&nbsp;</p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Chromosome Reduction&nbsp;</strong></span></span></p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Meiosis cuts the chromosome number in half, converting a diploid cell (2n) into haploid gametes (n). This reduction is essential for sexual reproduction because when two haploid cells—one from each parent—join during fertilization, they reestablish the full diploid chromosome set in the newly formed zygote.</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Without meiosis, the chromosome number would double with each generation, which would be unsustainable..</span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\"><strong>Genetic Recombination&nbsp;</strong></span></span></p><p>&nbsp;</p><p style=\"margin-bottom:0pt;margin-top:0pt;text-align:justify;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;\"><span style=\"vertical-align:baseline;\">Genetic recombination occurs during meiosis, allowing homologous chromosomes to swap segments of DNA. This process enhances genetic variation by forming new allele combinations, ensuring that each offspring receives a distinct set of inherited traits from their parents.</span></span></p>"
+          }
+        },
+        "content_type": "read_aloud",
+        "learning_style_tags": [
+          "reading_writing",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "7d664d48-7140-4e30-b3d4-c0c20760b994",
+        "title": "Lesson Content - AR",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 25,
+        "is_required": true,
+        "content_data": {
+          "questions": [
+            {
+              "id": "7d664d48-7140-4e30-b3d4-c0c20760b994-q-1762252045677",
+              "type": "short_answer",
+              "points": 10,
+              "options": [
+                ""
+              ],
+              "question": " List three ways meiosis contributes to genetic variation. Use bullet points or short sentences.",
+              "correct_answer": ""
+            }
+          ],
+          "quiz_data": {
+            "question": "Quick Write:"
+          }
+        },
+        "content_type": "assessment",
+        "learning_style_tags": [
+          "reading_writing",
+          "auditory"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      },
+      {
+        "id": "e60bbf24-4c02-4629-9495-64d33f96536f",
+        "title": "Post-Test",
+        "metadata": {
+          "key_points": [
+            ""
+          ]
+        },
+        "position": 26,
+        "is_required": true,
+        "content_data": {
+          "questions": [
+            {
+              "id": "e60bbf24-4c02-4629-9495-64d33f96536f-q-1762240578289",
+              "type": "single_choice",
+              "points": 1,
+              "options": [
+                "A. Fertilization",
+                "B. Spermatogenesis",
+                "C. Ovulation",
+                "D. Oogenesis"
+              ],
+              "question": "What is the term for the formation of egg cells in females?",
+              "correct_answer": "D. Oogenesis"
+            }
+          ],
+          "quiz_data": {
+            "question": "Post-Test"
+          }
+        },
+        "content_type": "assessment",
+        "learning_style_tags": [
+          "everyone"
+        ],
+        "interactive_elements": [],
+        "time_estimate_minutes": 5
+      }
+    ],
+    "learning_path": [],
+    "completion_criteria": [
+      ""
+    ],
+    "prerequisites_checklist": [
+      ""
+    ]
+  },
+  "difficulty_level": "beginner",
+  "estimated_duration_minutes": 30,
+  "prerequisites": [
+    ""
+  ],
+  "multimedia_content": {
+    "images": [
+      ""
+    ],
+    "videos": [
+      ""
+    ],
+    "diagrams": [
+      ""
+    ],
+    "podcasts": [
+      ""
+    ],
+    "animations": [
+      ""
+    ],
+    "virtual_labs": [
+      ""
+    ],
+    "audio_lessons": [
+      ""
+    ],
+    "discussion_guides": [
+      ""
+    ],
+    "hands_on_activities": [
+      ""
+    ],
+    "interactive_diagrams": [
+      ""
+    ],
+    "interactive_simulations": [
+      ""
+    ]
+  },
+  "interactive_elements": {
+    "simulation": false,
+    "experiments": false,
+    "note_taking": false,
+    "text_editor": false,
+    "gamification": false,
+    "drag_and_drop": false,
+    "audio_playback": false,
+    "visual_builder": false,
+    "voice_recording": false,
+    "discussion_forum": false,
+    "progress_tracking": false,
+    "virtual_laboratory": false,
+    "interactive_quizzes": false,
+    "physical_activities": false
+  },
+  "assessment_questions": [
+    {
+      "id": "0a395107-0888-40b5-8929-16ae8f6ea95e-q-1762240394983",
+      "type": "single_choice",
+      "points": 2,
+      "options": [
+        "A. To reduce chromosome number by half",
+        "B. To produce identical cells",
+        "C. To repair damaged DNA",
+        "D. To increase cell size"
+      ],
+      "question": "What is the main function of meiosis in sexual reproduction?",
+      "correct_answer": "A. To reduce chromosome number by half"
+    },
+    {
+      "id": "0a395107-0888-40b5-8929-16ae8f6ea95e-q-1762240478156",
+      "type": "single_choice",
+      "points": 10,
+      "options": [
+        "A. Prostate gland",
+        "B. Ovaries",
+        "C. Seminal vesicles",
+        "D. Testes"
+      ],
+      "question": "Where does spermatogenesis occur in male animals?",
+      "correct_answer": ""
+    },
+    {
+      "id": "7d664d48-7140-4e30-b3d4-c0c20760b994-q-1762252045677",
+      "type": "short_answer",
+      "points": 10,
+      "options": [
+        ""
+      ],
+      "question": " List three ways meiosis contributes to genetic variation. Use bullet points or short sentences.",
+      "correct_answer": ""
+    },
+    {
+      "id": "e60bbf24-4c02-4629-9495-64d33f96536f-q-1762240578289",
+      "type": "single_choice",
+      "points": 1,
+      "options": [
+        "A. Fertilization",
+        "B. Spermatogenesis",
+        "C. Ovulation",
+        "D. Oogenesis"
+      ],
+      "question": "What is the term for the formation of egg cells in females?",
+      "correct_answer": "D. Oogenesis"
+    }
+  ],
+  "module_metadata": {
+    "vocabulary": [
+      ""
+    ],
+    "key_concepts": [
+      ""
+    ],
+    "content_standards": [
+      ""
+    ],
+    "assessment_rubrics": {},
+    "extension_activities": [
+      ""
+    ],
+    "difficulty_indicators": [
+      ""
+    ],
+    "learning_competencies": [
+      ""
+    ],
+    "accessibility_features": [
+      ""
+    ],
+    "real_world_applications": [
+      ""
+    ],
+    "estimated_completion_time": 30
+  },
+  "is_published": 1,
+  "target_class_id": "",
+  "target_learning_styles": [
+    "visual",
+    "reading_writing",
+    "auditory",
+    "kinesthetic"
+  ],
+  "prerequisite_module_id": "20a92752-921f-478e-87cd-42bae4d6dc99",
+  "json_backup_url": "https://oykqgcyniwygrlsbhhvm.supabase.co/storage/v1/object/public/module-backups/vark-modules/module-backup-4cf58b23-32c1-4af5-a881-9dab5f57bcc3-2025-11-04T10-46-59.json",
+  "json_content_url": "https://skhgelcmvbwkgzzkbawu.supabase.co/storage/v1/object/public/module-content/vark-modules/module-4cf58b23-32c1-4af5-a881-9dab5f57bcc3.json",
+  "content_summary": null,
+  "profiles": {
+    "last_name": "",
+    "first_name": ""
+  }
+}

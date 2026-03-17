@@ -134,6 +134,7 @@ const submissionsRoutes = require('./routes/submissions.routes');
 const completionsRoutes = require('./routes/completions.routes');
 const badgesRoutes = require('./routes/badges.routes');
 const teachersRoutes = require('./routes/teachers.routes');
+const imagesRoutes = require('./routes/images-simple.routes');
 
 app.use('/api/auth', authRoutes);
 app.use('/api/students', studentsRoutes);
@@ -146,6 +147,7 @@ app.use('/api/submissions', submissionsRoutes);
 app.use('/api/completions', completionsRoutes);
 app.use('/api/badges', badgesRoutes);
 app.use('/api/teachers', teachersRoutes);
+app.use('/api/images', imagesRoutes);
 
 // 404 handler - must be after all routes
 app.use((req, res, next) => {

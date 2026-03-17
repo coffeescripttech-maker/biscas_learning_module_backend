@@ -1,178 +1,178 @@
 {
-  "exportDate": "2026-01-14T11:25:05.403Z",
-  "duration": "45.49 seconds",
+  "exportDate": "2026-03-16T14:58:14.669Z",
+  "duration": "0.04 seconds",
   "totalTables": 28,
-  "successfulTables": 25,
+  "successfulTables": 0,
   "skippedTables": 0,
-  "failedTables": 3,
-  "totalRecords": 63,
+  "failedTables": 28,
+  "totalRecords": 0,
   "results": [
     {
       "tableName": "profiles",
-      "records": 60,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\profiles.json",
+      "records": 0,
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "classes",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\classes.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "class_students",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\class_students.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "lessons",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\lessons.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "lesson_progress",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\lesson_progress.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "quizzes",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quizzes.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "quiz_questions",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quiz_questions.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "quiz_assignees",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quiz_assignees.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "quiz_class_assignees",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quiz_class_assignees.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "quiz_results",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\quiz_results.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "activities",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\activities.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "activity_assignees",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\activity_assignees.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "activity_class_assignees",
       "records": 0,
-      "error": "Could not find the table 'public.activity_class_assignees' in the schema cache",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "submissions",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\submissions.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "announcements",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\announcements.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "vark_module_categories",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_categories.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "vark_modules",
-      "records": 3,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_modules.json",
+      "records": 0,
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "vark_module_sections",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_sections.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "vark_module_progress",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_progress.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "vark_module_assignments",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_assignments.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "vark_learning_paths",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_learning_paths.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "vark_module_feedback",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\vark_module_feedback.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "module_completions",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\module_completions.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "student_badges",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\student_badges.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "teacher_notifications",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\teacher_notifications.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "student_module_submissions",
       "records": 0,
-      "filename": "C:\\Users\\ACER\\Desktop\\2025 Capstone Project\\BISCAS NAGA - LEARNING MODULE\\client\\server\\exports\\data\\student_module_submissions.json",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "file_storage",
       "records": 0,
-      "error": "Could not find the table 'public.file_storage' in the schema cache",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     },
     {
       "tableName": "files",
       "records": 0,
-      "error": "Could not find the table 'public.files' in the schema cache",
+      "error": "Cannot read properties of undefined (reading 'from')",
       "skipped": false
     }
   ]

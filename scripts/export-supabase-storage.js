@@ -26,8 +26,8 @@ const path = require('path');
 const https = require('https');
 const http = require('http');
 
-// Load environment variables from root .env.local
-require('dotenv').config({ path: path.join(__dirname, '../../.env.local') });
+// Load environment variables from client .env.local
+require('dotenv').config({ path: path.join(__dirname, '../../client/.env.local') });
 
 // Configuration
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;

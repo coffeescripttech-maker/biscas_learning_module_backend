@@ -1,0 +1,204 @@
+{
+  "exportDate": "2026-03-16T14:58:14.691Z",
+  "totalDuration": "0.19 seconds",
+  "results": {
+    "data": {
+      "exportDate": "2026-03-16T14:58:14.669Z",
+      "duration": "0.04 seconds",
+      "totalTables": 28,
+      "successfulTables": 0,
+      "skippedTables": 0,
+      "failedTables": 28,
+      "totalRecords": 0,
+      "results": [
+        {
+          "tableName": "profiles",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "classes",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "class_students",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "lessons",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "lesson_progress",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "quizzes",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "quiz_questions",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "quiz_assignees",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "quiz_class_assignees",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "quiz_results",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "activities",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "activity_assignees",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "activity_class_assignees",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "submissions",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "announcements",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "vark_module_categories",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "vark_modules",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "vark_module_sections",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "vark_module_progress",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "vark_module_assignments",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "vark_learning_paths",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "vark_module_feedback",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "module_completions",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "student_badges",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "teacher_notifications",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "student_module_submissions",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "file_storage",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        },
+        {
+          "tableName": "files",
+          "records": 0,
+          "error": "Cannot read properties of undefined (reading 'from')",
+          "skipped": false
+        }
+      ]
+    },
+    "auth": null,
+    "errors": [
+      {
+        "step": "auth",
+        "error": "Cannot read properties of undefined (reading 'auth')"
+      }
+    ]
+  },
+  "exportDirectories": {
+    "data": "server/exports/data/",
+    "auth": "server/exports/auth/",
+    "storage": "server/exports/storage/"
+  },
+  "nextSteps": [
+    "1. Review all export summaries in each directory",
+    "2. Verify data integrity",
+    "3. Run import scripts to migrate to MySQL",
+    "4. Test the migrated data",
+    "5. Update application to use new backend"
+  ]
+}
